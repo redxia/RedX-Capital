@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}Title{% endblock %}</title>
+    <base href="{{job_output_url}}/" target="_blank">
+
+    {% raw %} 
+    <style>
+        body {
+            font-family: Helvetica, Arial, Sans-Serif;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid #ccc;
+            border-collapse: collapse;
+            padding: 0.4em;
+        }
+
+        td {
+            white-space: nowrap;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            body {
+                background-color: #111;
+                color: #e4e4e4;
+            }
+
+            a {
+                /* color: #e39777; */
+                color: #0089c7;
+            }
+        }
+    </style>
+    {% endraw %}
+
+</head>
+
+<body>
+
+    <header>
+        :: block header
+        <h1>{{ self.title() }}</h1>
+        :: endblock
+    </header>
+
+    <section id="content">
+        :: block content
+        <p>Content</p>
+        :: endblock
+    </section>
+
+    <footer>
+        :: block footer
+        :: endblock
+        <p><a href="index.html">Job Output</a></p>
+    </footer>
+
+</body>
+
+</html>

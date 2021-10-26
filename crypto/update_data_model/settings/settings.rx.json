@@ -1,0 +1,10 @@
+{
+    "email_enabled": false,
+    "debug":true,
+    "log_duration":true,
+    "log_query_id": false,
+
+    "limit":null
+    //,
+    //"step_filter":["+step_01","-step_02"]
+}

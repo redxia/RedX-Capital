@@ -1,0 +1,1 @@
+python __settings.py default.py debug=True email_enabled=False email_recipient=['data-insights-alerts@guidepoint.com'] c={'a':1,'b':2}

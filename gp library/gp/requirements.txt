@@ -1,0 +1,7 @@
+psutil
+snowflake-connector-python
+Jinja2
+pandas
+#pip install numpy==1.19.3
+pytest
+pytest-xdist

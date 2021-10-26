@@ -1,0 +1,13 @@
+date updated 9/28/2020
+
+sp 100
+https://www.barchart.com/stocks/indices/sp/sp100
+
+nasdaq 100
+https://www.barchart.com/stocks/indices/nasdaq/nasdaq100
+
+top 100 barchart
+https://www.barchart.com/stocks/top-100-stocks
+
+NYSE 100
+https://www.investing.com/indices/nyse-us-100-components

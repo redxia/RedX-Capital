@@ -1,0 +1,13 @@
+library(quantmod)
+library(forecast)
+library(timeDate)
+library(data.table)
+library(alphavantager)
+library(quantmod)
+library(tseries)
+#library(AlpacaforR)
+av_api_key("TCQT2QFAN6SOOT8I")
+setDefaults(getSymbols.av, api.key = "TCQT2QFAN6SOOT8I")
+
+getSymbols('TQQQ', verbose = FALSE, from = "2011-01-01", src = 'av', output = 'full')
+plot(TQQQ["20120101/"]$TQQQ.Close)

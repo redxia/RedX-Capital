@@ -1,0 +1,89 @@
+Symbol,Name
+XLE,Energy Select Sector SPDR Fund
+XLF,Financial Select Sector SPDR Fund
+XLU,Utilities Select Sector SPDR Fund
+XLI,Industrial Select Sector SPDR Fund
+GDX,VanEck Vectors Gold Miners ETF
+XLK,Technology Select Sector SPDR Fund
+XLV,Health Care Select Sector SPDR Fund
+XLY,Consumer Discretionary Select Sector SPDR Fund
+XLP,Consumer Staples Select Sector SPDR Fund
+XLB,Materials Select Sector SPDR Fund
+XOP,Spdr S&P Oil & Gas Exploration & Production Etf
+IYR,iShares U.S. Real Estate ETF
+XHB,Spdr S&P Homebuilders Etf
+ITB,iShares U.S. Home Construction ETF
+VNQ,Vanguard Real Estate Index Fund ETF Shares
+GDXJ,VanEck Vectors Junior Gold Miners ETF
+XME,SPDR S&P Metals & Mining ETF
+XRT,Spdr S&P Retail Etf
+SMH,VanEck Vectors Semiconductor ETF
+IBB,iShares Nasdaq Biotechnology ETF
+KBE,SPDR S&P Bank ETF
+KRE,SPDR S&P Regional Banking ETF
+XTL,SPDR S&P Telecom ETF
+IWV,iShares Russell 3000 ETF
+IWR,iShares Russell Midcap ETF
+SDY,SPDR S&P Dividend ETF
+DVY,iShares Select Dividend ETF
+IWP,iShares Russell Midcap Growth ETF
+IWS,iShares Russell Midcap Value ETF
+ARKK,ARK Innovation ETF
+SPTM,SPDR Portfolio S&P 1500 Composite Stock Market ETF
+SPYD,SPDR Portfolio S&P 500 High Dividend ETF
+IWM,iShares Russell 2000 ETF
+IWD,iShares Russell 1000 Value ETF
+IWN,iShares Russell 2000 Value ETF
+IWB,iShares Russell 1000 ETF
+IWF,iShares Russell 1000 Growth ETF
+IWO,iShares Russell 2000 Growth ETF
+VBK,Vanguard Small-Cap Growth ETF
+VFH,Vanguard Financial ETF
+SIL,Global X Silver Miners ETF
+XLC,Communication Services Sel Sec SPDR ETF
+VCR,Vanguard Consumer Discretionary ETF
+VDC,Vanguard Consumer Staples ETF
+VDE,Vanguard Energy ETF
+VHT,Vanguard Health Care ETF
+VIS,Vanguard Industrial ETF
+IGF,iShares Global Infrastructure ETF
+XT,iShares Exponential Technologies ETF
+VAW,Vanguard Material ETF
+REET,iShares Global Reit ETF
+USRT,iShares Core US REIT ETF
+XLRE,Real Estate Select Sector SPDR
+FTEC,Fidelity MSCI Information Tech ETF
+VGT,Vanguard Information Technology ETF
+VPU,Vanguard Utilities ETF
+VOO,Vanguard S&P 500 ETF
+VTI,Vanguard Total Stock Market ETF
+USMV,iShares MSCI USA Min Vol Factor ETF
+VUG,Vanguard Growth ETF
+QQQ,Invesco QQQ Trust
+IVW,iShares S&P 500 Growth ETF
+VTV,Vanguard Value ETF
+IVE,iShares S&P 500 Value ETF
+SPY,SPY
+DIA,DJIA
+VYM,Vanguard High Dividend Yield ETF
+IJH,iShares Core S&P Mid-Cap ETF
+VXF,Vanguard Extended Market ETF
+IJK,iShares S&P Mid-Cap 400 Growth ETF
+VOT,Vanguard Mid-Cap Growth ETF
+VOE,Vanguard Mid-Cap Value ETF
+IJJ,iShares S&P Mid-Cap 400 Value ETF
+PFF,iShares Preferred & Income Securities ETF
+PGX,Invesco Preferred ETF
+VB,Vanguard Small-Cap ETF
+IJR,iShares Core S&P Small-Cap ETF
+IJT,iShares S&P Small-Cap 600 Growth ETF
+VBR,Vanguard Small-Cap Value ETF
+IJS,iShares S&P Small-Cap 600 Value ETF
+VXX,iPath Series B S&P 500 VIX Short-Term Futures ETF
+VIXY,ProShares VIX Short-Term Futures ETF
+SVXY,ProShares Short VIX Short-Term Futures
+GUSH,S&P Oil & Gas Exploration & Production Select Industry
+DFEN,Direxion Daily Aerospace and Defense 3x
+JETS,US Global Jets ETF
+LABU,Direxion Daily SP Biotechnology 3x
+XBI,SP Biotech

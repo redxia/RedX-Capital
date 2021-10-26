@@ -1,0 +1,25 @@
+{
+    "qaChecks":
+        {
+            // NA|UNKNOWN|TODO|2/3>
+            // NA       == Not applicable for ETL
+            // UNKNOWN  == Must confirm if check is needed
+            // TODO     == Confirmed check is needed but not implemented
+            // 2/3      == 2 of 3 done
+            "ASSERT_CUT_DATE_AVAILABLE":    "UNKNOWN",
+            "ASSERT_DISTINCT_CUT":          "UNKNOWN",
+            "CHECK_CUR_PREV_FILE_COUNTS":   "UNKNOWN",
+            "CHECK_CUR_PREV_ROW_COUNTS":    "UNKNOWN",
+            "CHECK_CUT_OVER_CUT_ROWS":      "UNKNOWN",
+            "CHECK_HASH_AGG":               "UNKNOWN",
+            "CHECK_FK":                     "UNKNOWN",
+            "CHECK_PK":                     "UNKNOWN",  
+            "CHECK_UK":                     "UNKNOWN",
+            "COMPARE_TO_PACKING_LIST":      "UNKNOWN",
+            "CHECK_TRUNCATED_FILES":        "UNKNOWN",
+            "DISPLAY_EMAIL_CUT_DATE":       "UNKNOWN",
+            "WARN_EXTRA_FILES":             "UNKNOWN"
+        }
+    }
+
+

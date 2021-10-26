@@ -1,0 +1,23 @@
+day simulation drift of option or stock prices based on high and low
+
+peform cryptocurrency optimizations and portfolio
+
+up and down state expected value for the upper alpha and low alpha model
+
+top down optimizations from crypto to bonds to stocks allocation.
+
+ETN
+USOI
+covered call funds.
+good for higher volatility industry
+
+run optimizers
+QYLD
+GLDI
+USOI-
+RYLD-RUSSELL
+XYLD-SP500
+growth rate. 
+MUSI
+
+daily binary options classifier
