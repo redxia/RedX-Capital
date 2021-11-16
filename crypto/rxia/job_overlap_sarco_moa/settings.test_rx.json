@@ -1,0 +1,49 @@
+{
+    "email_enabled":            false,
+    "debug":                    true,
+    "log_duration":             false,
+    "log_query_id":             false,
+
+    "warehouse":                "skywalker",
+    "database":                 "research",
+    "schema":                   "rxia",
+    "role":                     "analyst",
+
+    "read_path":                "G:/Foundation/Monitor",
+    "read_file":                "SPINE_MASTER_FVP.xlsx",
+    "read_sheet":               "MASTER",
+
+    "step_filter": ["-step_10"],
+
+    "retain_columns":           ["MFG_TICKER TEXT", 
+                                "SOURCE TEXT",
+                                "MFG_CATALOG TEXT",
+                                "BRAND_FAMILY TEXT", 
+                                "BRAND_NAME TEXT", 
+                                "SEGMENT TEXT", 
+                                "MARKET_LEVEL_1 TEXT", 
+                                "MARKET_LEVEL_2 TEXT", 
+                                "OCCIPITAL TEXT", 
+                                "CERVICAL TEXT", 
+                                "THORACIC TEXT", 
+                                "LUMBAR TEXT", 
+                                "SACRAL TEXT", 
+                                "ILIAC TEXT", 
+                                "ANTERIOR TEXT", 
+                                "LATERAL TEXT", 
+                                "POSTERIOR TEXT", 
+                                "PRODUCT_TYPE_1 TEXT", 
+                                "PRODUCT_TYPE_2 TEXT", 
+                                "PRODUCT_TYPE_3 TEXT", 
+                                "MATERIAL TEXT"],
+    
+    "split_key":                "KEY",
+    "split_key_on":             "_",
+    "split_into":               ["MFG_TICKER", "SOURCE", "MFG_CATALOG"],
+
+
+
+    "primary_key":              ["MFG_TICKER", "SOURCE", "MFG_CATALOG"],
+    
+    "write_table":              "SPINE_SKU_MAPPING"
+}   

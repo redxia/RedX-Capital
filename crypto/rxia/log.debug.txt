@@ -1,0 +1,255 @@
+2021-09-30 14:45:11,108 | MainThread | DEBUG | init_logger | root | Logging configured
+
+2021-09-30 14:45:11,108 | MainThread | INFO | <module> | gp.settings | SETTINGS FILE: settings.--ip=127.0.0.1.json
+
+2021-09-30 14:45:11,123 | MainThread | DEBUG | __init__ | snowflake.connector.converter_issue23517 | initialized
+
+2021-09-30 14:45:11,124 | MainThread | DEBUG | from_int | snowflake.connector.vendored.urllib3.util.retry | Converted retries value: 1 -> Retry(total=1, connect=None, read=None, redirect=None, status=None)
+
+2021-09-30 14:45:11,124 | MainThread | DEBUG | from_int | snowflake.connector.vendored.urllib3.util.retry | Converted retries value: 1 -> Retry(total=1, connect=None, read=None, redirect=None, status=None)
+
+2021-09-30 14:45:11,127 | MainThread | DEBUG | _new_conn | snowflake.connector.vendored.urllib3.connectionpool | Starting new HTTPS connection (1): guidepoint.snowflakecomputing.com:443
+
+2021-09-30 14:45:11,530 | MainThread | DEBUG | reset_cache_dir | snowflake.connector.ocsp_snowflake | cache directory: C:\Users\redmond.xia\AppData\Local\Snowflake\Caches
+
+2021-09-30 14:45:11,565 | MainThread | DEBUG | reset_ocsp_response_cache_uri | snowflake.connector.ocsp_snowflake | ocsp_response_cache_uri: file://C:/Users/redmond.xia/AppData/Local/Snowflake/Caches/ocsp_response_cache.json
+
+2021-09-30 14:45:11,565 | MainThread | DEBUG | reset_ocsp_response_cache_uri | snowflake.connector.ocsp_snowflake | OCSP_VALIDATION_CACHE size: 0
+
+2021-09-30 14:45:11,565 | MainThread | DEBUG | reset_ocsp_dynamic_cache_server_url | snowflake.connector.ocsp_snowflake | OCSP response cache server is enabled: http://ocsp.snowflakecomputing.com/ocsp_response_cache.json
+
+2021-09-30 14:45:11,565 | MainThread | DEBUG | reset_ocsp_dynamic_cache_server_url | snowflake.connector.ocsp_snowflake | OCSP dynamic cache server RETRY URL: None
+
+2021-09-30 14:45:11,566 | MainThread | DEBUG | check_ocsp_response_cache_lock_dir | snowflake.connector.ocsp_snowflake | The cache is older than 1 day. Deleted the cache file: C:/Users/redmond.xia/AppData/Local/Snowflake/Caches/ocsp_response_cache.json
+
+2021-09-30 14:45:11,566 | MainThread | DEBUG | read_ocsp_response_cache_file | snowflake.connector.ocsp_snowflake | Failed to locate OCSP response cache file. No worry. It will validate with OCSP server: C:/Users/redmond.xia/AppData/Local/Snowflake/Caches/ocsp_response_cache.json
+
+2021-09-30 14:45:11,566 | MainThread | DEBUG | validate | snowflake.connector.ocsp_snowflake | validating certificate: guidepoint.snowflakecomputing.com
+
+2021-09-30 14:45:11,581 | MainThread | DEBUG | find_cache | snowflake.connector.ocsp_snowflake | not hit cache for subject: OrderedDict([('common_name', '*.us-west-2.snowflakecomputing.com')])
+
+2021-09-30 14:45:11,581 | MainThread | DEBUG | _download_ocsp_response_cache | snowflake.connector.ocsp_snowflake | started downloading OCSP response cache file: http://ocsp.snowflakecomputing.com/ocsp_response_cache.json
+
+2021-09-30 14:45:11,746 | MainThread | DEBUG | _download_ocsp_response_cache | snowflake.connector.ocsp_snowflake | ended downloading OCSP response cache file. elapsed time: 0.16480207443237305s
+
+2021-09-30 14:45:11,746 | MainThread | DEBUG | download_cache_from_server | snowflake.connector.ocsp_snowflake | downloaded OCSP response cache file from http://ocsp.snowflakecomputing.com/ocsp_response_cache.json
+
+2021-09-30 14:45:11,746 | MainThread | DEBUG | download_cache_from_server | snowflake.connector.ocsp_snowflake | # of certificates: 146
+
+2021-09-30 14:45:11,747 | MainThread | DEBUG | find_cache | snowflake.connector.ocsp_snowflake | hit cache for subject: OrderedDict([('common_name', '*.us-west-2.snowflakecomputing.com')])
+
+2021-09-30 14:45:11,748 | MainThread | DEBUG | validate_by_direct_connection | snowflake.connector.ocsp_snowflake | using OCSP response cache
+
+2021-09-30 14:45:11,770 | MainThread | DEBUG | find_cache | snowflake.connector.ocsp_snowflake | hit cache for subject: OrderedDict([('country_name', 'US'), ('organization_name', 'Amazon'), ('organizational_unit_name', 'Server CA 1B'), ('common_name', 'Amazon')])
+
+2021-09-30 14:45:11,771 | MainThread | DEBUG | validate_by_direct_connection | snowflake.connector.ocsp_snowflake | using OCSP response cache
+
+2021-09-30 14:45:11,776 | MainThread | DEBUG | find_cache | snowflake.connector.ocsp_snowflake | hit cache for subject: OrderedDict([('country_name', 'US'), ('organization_name', 'Amazon'), ('common_name', 'Amazon Root CA 1')])
+
+2021-09-30 14:45:11,777 | MainThread | DEBUG | validate_by_direct_connection | snowflake.connector.ocsp_snowflake | using OCSP response cache
+
+2021-09-30 14:45:11,782 | MainThread | DEBUG | find_cache | snowflake.connector.ocsp_snowflake | hit cache for subject: OrderedDict([('country_name', 'US'), ('state_or_province_name', 'Arizona'), ('locality_name', 'Scottsdale'), ('organization_name', 'Starfield Technologies, Inc.'), ('common_name', 'Starfield Services Root Certificate Authority - G2')])
+
+2021-09-30 14:45:11,783 | MainThread | DEBUG | validate_by_direct_connection | snowflake.connector.ocsp_snowflake | using OCSP response cache
+
+2021-09-30 14:45:11,788 | MainThread | DEBUG | write_ocsp_response_cache_file | snowflake.connector.ocsp_snowflake | writing OCSP response cache file to C:/Users/redmond.xia/AppData/Local/Snowflake/Caches/ocsp_response_cache.json
+
+2021-09-30 14:45:11,788 | MainThread | DEBUG | encode_ocsp_response_cache | snowflake.connector.ocsp_snowflake | encoding OCSP response cache to JSON
+
+2021-09-30 14:45:11,803 | MainThread | DEBUG | _validate | snowflake.connector.ocsp_snowflake | ok
+
+2021-09-30 14:45:12,211 | MainThread | DEBUG | _make_request | snowflake.connector.vendored.urllib3.connectionpool | https://guidepoint.snowflakecomputing.com:443 "POST /session/v1/login-request?request_id=e6dfaa97-cad6-4757-93a1-79723d9b2017&roleName=analyst&request_guid=5d5cee4b-3fd5-456c-88e9-87a3018fee03 HTTP/1.1" 200 1423
+
+2021-09-30 14:45:12,215 | MainThread | DEBUG | connect | gp.snowflake | Snowflake Connector Version: 2.3.10
+
+2021-09-30 14:45:12,215 | MainThread | DEBUG | connect | gp.snowflake | Snowflake Connected: user=rxia
+
+2021-09-30 14:45:12,216 | MainThread | DEBUG | execute | gp.snowflake | SQL CLEAN:
+    select rawdata.metadata.job_run_id.nextval as run_id
+
+2021-09-30 14:45:21,606 | MainThread | DEBUG | _make_request | snowflake.connector.vendored.urllib3.connectionpool | https://guidepoint.snowflakecomputing.com:443 "POST /queries/v1/query-request?requestId=67c65916-1505-48ae-9123-9502cab66208&request_guid=8b57e165-c397-40b6-94fc-00a51f85e34c HTTP/1.1" 200 1004
+
+2021-09-30 14:45:21,608 | MainThread | INFO | get_run_id | gp.runlog | RUN_ID: 48844
+
+2021-09-30 14:45:21,609 | MainThread | DEBUG | execute | gp.snowflake | SQL CLEAN:
+    alter session set query_tag='RUN_ID=48844'
+
+2021-09-30 14:45:21,835 | MainThread | DEBUG | _make_request | snowflake.connector.vendored.urllib3.connectionpool | https://guidepoint.snowflakecomputing.com:443 "POST /queries/v1/query-request?requestId=b8c385a1-e0ed-40ad-aa2f-99c7d774b2fc&request_guid=340b95fd-9b68-49d8-ac5e-25202f20a934 HTTP/1.1" 200 1008
+
+2021-09-30 14:45:21,836 | MainThread | DEBUG | execute | gp.snowflake | SQL CLEAN:
+    set current_run_id=48844::number
+
+2021-09-30 14:45:22,070 | MainThread | DEBUG | _make_request | snowflake.connector.vendored.urllib3.connectionpool | https://guidepoint.snowflakecomputing.com:443 "POST /queries/v1/query-request?requestId=0660e76e-4d09-4c6f-ab30-593059061eb2&request_guid=ceb56ce2-7031-49d4-b02e-d637c2bd8c87 HTTP/1.1" 200 1008
+
+2021-09-30 14:45:22,376 | MainThread | DEBUG | _initialize | gp.job | Python Version: 3.8.7 (tags/v3.8.7:6503f05, Dec 21 2020, 17:59:51) [MSC v.1928 64 bit (AMD64)]
+
+2021-09-30 14:45:22,528 | MainThread | DEBUG | _initialize | gp.job | Working Directory: c:\dev\da.research\personal\rxia
+
+2021-09-30 14:45:22,528 | MainThread | DEBUG | _initialize | gp.job | Username=redmond.xia, Hostname=GP-BSX70Z2, Host IP=192.168.0.14, External IP=<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en-US"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en-US"> <!--<![endif]-->
+<head>
+<title>Access denied | ipapi.co used Cloudflare to restrict access</title>
+<meta charset="UTF-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+<meta name="robots" content="noindex, nofollow" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<link rel="stylesheet" id="cf_styles-css" href="/cdn-cgi/styles/main.css" type="text/css" media="screen,projection" />
+
+
+<script defer src="https://api.radar.cloudflare.com/beacon.js"></script>
+</head>
+<body>
+  <div id="cf-wrapper">
+    <div class="cf-alert cf-alert-error cf-cookie-error hidden" id="cookie-alert" data-translate="enable_cookies">Please enable cookies.</div>
+    <div id="cf-error-details" class="p-0">
+      <header class="mx-auto pt-10 lg:pt-6 lg:px-8 w-240 lg:w-full mb-15 antialiased">
+         <h1 class="inline-block md:block mr-2 md:mb-2 font-light text-60 md:text-3xl text-black-dark leading-tight">
+           <span data-translate="error">Error</span>
+           <span>1020</span>
+         </h1>
+         <span class="inline-block md:block heading-ray-id font-mono text-15 lg:text-sm lg:leading-relaxed">Ray ID: 696f9b987efd0cf1 &bull;</span>
+         <span class="inline-block md:block heading-ray-id font-mono text-15 lg:text-sm lg:leading-relaxed">2021-09-30 18:45:21 UTC</span>
+        <h2 class="text-gray-600 leading-1.3 text-3xl lg:text-2xl font-light">Access denied</h2>
+      </header>
+
+      <section class="w-240 lg:w-full mx-auto mb-8 lg:px-8">
+          <div id="what-happened-section" class="w-1/2 md:w-full">
+            <h2 class="text-3xl leading-tight font-normal mb-4 text-black-dark antialiased" data-translate="what_happened">What happened?</h2>
+            <p>This website is using a security service to protect itself from online attacks.</p>
+            
+          </div>
+
+          
+      </section>
+
+      <div class="cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300">
+  <p class="text-13">
+    <span class="cf-footer-item sm:block sm:mb-1">Cloudflare Ray ID: <strong class="font-semibold">696f9b987efd0cf1</strong></span>
+    <span class="cf-footer-separator sm:hidden">&bull;</span>
+    <span class="cf-footer-item sm:block sm:mb-1"><span>Your IP</span>: 184.152.13.179</span>
+    <span class="cf-footer-separator sm:hidden">&bull;</span>
+    <span class="cf-footer-item sm:block sm:mb-1"><span>Performance &amp; security by</span> <a rel="noopener noreferrer" href="https://www.cloudflare.com/5xx-error-landing" id="brand_link" target="_blank">Cloudflare</a></span>
+    
+  </p>
+</div><!-- /.error-footer -->
+
+
+    </div><!-- /#cf-error-details -->
+  </div><!-- /#cf-wrapper -->
+
+  <script type="text/javascript">
+  window._cf_translation = {};
+  
+  
+</script>
+
+</body>
+</html>
+
+
+2021-09-30 14:45:22,528 | MainThread | DEBUG | _initialize | gp.job | Windows 10.0.19041, 64bit, AMD64, Intel64 Family 6 Model 158 Stepping 13, GenuineIntel 
+
+2021-09-30 14:45:22,528 | MainThread | DEBUG | _initialize | gp.job | Memmory Used: 20.3 MB
+
+2021-09-30 14:45:22,528 | MainThread | DEBUG | _initialize | gp.job | Module Paths: ['c:\\dev\\da.research\\personal\\rxia', 'c:\\Users\\redmond.xia\\.vscode\\extensions\\ms-toolsai.jupyter-2021.8.1054968649\\pythonFiles\\vscode_datascience_helpers', 'c:\\dev\\da.etl', 'c:\\dev\\da.main\\Job\\shared', 'C:\\dev\\da.research\\personal\\rxia', 'C:\\Program Files\\Microsoft VS Code', 'c:\\Users\\redmond.xia\\.vscode\\extensions\\ms-toolsai.jupyter-2021.8.1054968649\\pythonFiles', 'c:\\Users\\redmond.xia\\.vscode\\extensions\\ms-toolsai.jupyter-2021.8.1054968649\\pythonFiles\\lib\\python', 'C:\\Users\\redmond.xia\\AppData\\Local\\Programs\\Python\\python38.zip', 'C:\\Users\\redmond.xia\\AppData\\Local\\Programs\\Python\\DLLs', 'C:\\Users\\redmond.xia\\AppData\\Local\\Programs\\Python\\lib', 'C:\\Users\\redmond.xia\\AppData\\Local\\Programs\\Python', '', 'C:\\Users\\redmond.xia\\AppData\\Roaming\\Python\\Python38\\site-packages', 'C:\\Users\\redmond.xia\\AppData\\Roaming\\Python\\Python38\\site-packages\\win32', 'C:\\Users\\redmond.xia\\AppData\\Roaming\\Python\\Python38\\site-packages\\win32\\lib', 'C:\\Users\\redmond.xia\\AppData\\Roaming\\Python\\Python38\\site-packages\\Pythonwin', 'C:\\Users\\redmond.xia\\AppData\\Local\\Programs\\Python\\lib\\site-packages', 'C:\\Users\\redmond.xia\\AppData\\Roaming\\Python\\Python38\\site-packages\\IPython\\extensions', 'C:\\Users\\redmond.xia\\.ipython']
+
+2021-09-30 14:45:22,528 | MainThread | DEBUG | _initialize | gp.job | Command Line: ['ipykernel_launcher', '--ip=127.0.0.1', '--stdin=9014', '--control=9011', '--hb=9010', '--Session.signature_scheme="hmac-sha256"', '--Session.key=b"c42be48a-20cf-4139-9b95-0e202167d24c"', '--shell=9013', '--transport="tcp"', '--iopub=9015', '--f=C:\\Users\\redmond.xia\\AppData\\Local\\Temp\\tmp-32876wQRqj5UFSUt5.json']
+
+2021-09-30 14:45:22,528 | MainThread | DEBUG | _initialize | gp.job | Boto3 Version: 1.17.4
+
+2021-09-30 14:45:22,751 | MainThread | DEBUG | _make_request | snowflake.connector.vendored.urllib3.connectionpool | https://guidepoint.snowflakecomputing.com:443 "POST /queries/v1/query-request?requestId=2ff31a89-fd3b-44fa-a3df-71d1ffe4b49c&request_guid=da82aa44-b225-49c5-b09f-c76de1956cf3 HTTP/1.1" 200 1382
+
+2021-09-30 14:45:22,849 | MainThread | DEBUG | get_warehouse_details | gp.snowflake | {'name': 'SKYWALKER', 'state': 'STARTED', 'type': 'STANDARD', 'size': 'Small', 'running': 0, 'queued': 0, 'is_default': 'Y', 'is_current': 'Y', 'auto_suspend': 300, 'auto_resume': 'true', 'available': ' 100', 'provisioning': '0', 'quiescing': '0', 'other': '0', 'created_on': datetime.datetime(2017, 2, 13, 14, 10, 54, 143000, tzinfo=<DstTzInfo 'America/New_York' EST-1 day, 19:00:00 STD>), 'resumed_on': datetime.datetime(2021, 9, 30, 14, 45, 19, 400000, tzinfo=<DstTzInfo 'America/New_York' EDT-1 day, 20:00:00 DST>), 'updated_on': datetime.datetime(2021, 9, 30, 14, 45, 19, 400000, tzinfo=<DstTzInfo 'America/New_York' EDT-1 day, 20:00:00 DST>), 'owner': 'SYSADMIN', 'comment': 'Thursday Moa Run', 'resource_monitor': 'null', 'actives': 2, 'pendings': 0, 'failed': 0, 'suspended': 0, 'uuid': '1012996'}
+
+2021-09-30 14:45:22,850 | MainThread | DEBUG | execute | gp.snowflake | SQL CLEAN:
+    insert into rawdata.metadata.job_run_v3 (run_id, job_group, job_name, settings_file, host_ip, host_name, windows_user, git_timestamp, git_hash, git_status, git_describe, warehouse_size, details)
+            select $1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, parse_json($13)
+            from values (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s);
+
+2021-09-30 14:45:22,851 | MainThread | DEBUG | execute | gp.snowflake | Args:
+    [
+        48844,
+        "personal",
+        "rxia",
+        "settings.--ip=127.0.0.1.json",
+        "192.168.0.14",
+        "GP-BSX70Z2",
+        "REDMOND.XIA",
+        "2021-09-30 14:30:47 -0400",
+        "34eeb641b157f6a83d36e864c97b1741c3048d8a",
+        "",
+        "v20180326.2001-4780-g34eeb641",
+        "Small",
+        "{\"python_version\": \"3.8.7 (tags/v3.8.7:6503f05, Dec 21 2020, 17:59:51) [MSC v.1928 64 bit (AMD64)]\", \"external_ip\": \"<!DOCTYPE html>\\n<!--[if lt IE 7]> <html class=\\\"no-js ie6 oldie\\\" lang=\\\"en-US\\\"> <![endif]-->\\n<!--[if IE 7]>    <html class=\\\"no-js ie7 oldie\\\" lang=\\\"en-US\\\"> <![endif]-->\\n<!--[if IE 8]>    <html class=\\\"no-js ie8 oldie\\\" lang=\\\"en-US\\\"> <![endif]-->\\n<!--[if gt IE 8]><!--> <html class=\\\"no-js\\\" lang=\\\"en-US\\\"> <!--<![endif]-->\\n<head>\\n<title>Access denied | ipapi.co used Cloudflare to restrict access</title>\\n<meta charset=\\\"UTF-8\\\" />\\n<meta http-equiv=\\\"Content-Type\\\" content=\\\"text/html; charset=UTF-8\\\" />\\n<meta http-equiv=\\\"X-UA-Compatible\\\" content=\\\"IE=Edge,chrome=1\\\" />\\n<meta name=\\\"robots\\\" content=\\\"noindex, nofollow\\\" />\\n<meta name=\\\"viewport\\\" content=\\\"width=device-width,initial-scale=1\\\" />\\n<link rel=\\\"stylesheet\\\" id=\\\"cf_styles-css\\\" href=\\\"/cdn-cgi/styles/main.css\\\" type=\\\"text/css\\\" media=\\\"screen,projection\\\" />\\n\\n\\n<script defer src=\\\"https://api.radar.cloudflare.com/beacon.js\\\"></script>\\n</head>\\n<body>\\n  <div id=\\\"cf-wrapper\\\">\\n    <div class=\\\"cf-alert cf-alert-error cf-cookie-error hidden\\\" id=\\\"cookie-alert\\\" data-translate=\\\"enable_cookies\\\">Please enable cookies.</div>\\n    <div id=\\\"cf-error-details\\\" class=\\\"p-0\\\">\\n      <header class=\\\"mx-auto pt-10 lg:pt-6 lg:px-8 w-240 lg:w-full mb-15 antialiased\\\">\\n         <h1 class=\\\"inline-block md:block mr-2 md:mb-2 font-light text-60 md:text-3xl text-black-dark leading-tight\\\">\\n           <span data-translate=\\\"error\\\">Error</span>\\n           <span>1020</span>\\n         </h1>\\n         <span class=\\\"inline-block md:block heading-ray-id font-mono text-15 lg:text-sm lg:leading-relaxed\\\">Ray ID: 696f9b987efd0cf1 &bull;</span>\\n         <span class=\\\"inline-block md:block heading-ray-id font-mono text-15 lg:text-sm lg:leading-relaxed\\\">2021-09-30 18:45:21 UTC</span>\\n        <h2 class=\\\"text-gray-600 leading-1.3 text-3xl lg:text-2xl font-light\\\">Access denied</h2>\\n      </header>\\n\\n      <section class=\\\"w-240 lg:w-full mx-auto mb-8 lg:px-8\\\">\\n          <div id=\\\"what-happened-section\\\" class=\\\"w-1/2 md:w-full\\\">\\n            <h2 class=\\\"text-3xl leading-tight font-normal mb-4 text-black-dark antialiased\\\" data-translate=\\\"what_happened\\\">What happened?</h2>\\n            <p>This website is using a security service to protect itself from online attacks.</p>\\n            \\n          </div>\\n\\n          \\n      </section>\\n\\n      <div class=\\\"cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300\\\">\\n  <p class=\\\"text-13\\\">\\n    <span class=\\\"cf-footer-item sm:block sm:mb-1\\\">Cloudflare Ray ID: <strong class=\\\"font-semibold\\\">696f9b987efd0cf1</strong></span>\\n    <span class=\\\"cf-footer-separator sm:hidden\\\">&bull;</span>\\n    <span class=\\\"cf-footer-item sm:block sm:mb-1\\\"><span>Your IP</span>: 184.152.13.179</span>\\n    <span class=\\\"cf-footer-separator sm:hidden\\\">&bull;</span>\\n    <span class=\\\"cf-footer-item sm:block sm:mb-1\\\"><span>Performance &amp; security by</span> <a rel=\\\"noopener noreferrer\\\" href=\\\"https://www.cloudflare.com/5xx-error-landing\\\" id=\\\"brand_link\\\" target=\\\"_blank\\\">Cloudflare</a></span>\\n    \\n  </p>\\n</div><!-- /.error-footer -->\\n\\n\\n    </div><!-- /#cf-error-details -->\\n  </div><!-- /#cf-wrapper -->\\n\\n  <script type=\\\"text/javascript\\\">\\n  window._cf_translation = {};\\n  \\n  \\n</script>\\n\\n</body>\\n</html>\\n\", \"workding_dir\": \"c:\\\\dev\\\\da.research\\\\personal\\\\rxia\", \"command_line\": \"ipykernel_launcher --ip=127.0.0.1 --stdin=9014 --control=9011 --hb=9010 --Session.signature_scheme=\\\"hmac-sha256\\\" --Session.key=b\\\"c42be48a-20cf-4139-9b95-0e202167d24c\\\" --shell=9013 --transport=\\\"tcp\\\" --iopub=9015 --f=C:\\\\Users\\\\redmond.xia\\\\AppData\\\\Local\\\\Temp\\\\tmp-32876wQRqj5UFSUt5.json\", \"platform_system\": \"Windows\", \"plaform_version\": \"10.0.19041\", \"platform_architecture\": \"64bit\", \"platform_machine\": \"AMD64\", \"platform_processor\": \"Intel64 Family 6 Model 158 Stepping 13, GenuineIntel\", \"memory_used_mb\": 20.2743808, \"module_paths\": \"c:\\\\dev\\\\da.research\\\\personal\\\\rxia;c:\\\\Users\\\\redmond.xia\\\\.vscode\\\\extensions\\\\ms-toolsai.jupyter-2021.8.1054968649\\\\pythonFiles\\\\vscode_datascience_helpers;c:\\\\dev\\\\da.etl;c:\\\\dev\\\\da.main\\\\Job\\\\shared;C:\\\\dev\\\\da.research\\\\personal\\\\rxia;C:\\\\Program Files\\\\Microsoft VS Code;c:\\\\Users\\\\redmond.xia\\\\.vscode\\\\extensions\\\\ms-toolsai.jupyter-2021.8.1054968649\\\\pythonFiles;c:\\\\Users\\\\redmond.xia\\\\.vscode\\\\extensions\\\\ms-toolsai.jupyter-2021.8.1054968649\\\\pythonFiles\\\\lib\\\\python;C:\\\\Users\\\\redmond.xia\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\python38.zip;C:\\\\Users\\\\redmond.xia\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\DLLs;C:\\\\Users\\\\redmond.xia\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\lib;C:\\\\Users\\\\redmond.xia\\\\AppData\\\\Local\\\\Programs\\\\Python;;C:\\\\Users\\\\redmond.xia\\\\AppData\\\\Roaming\\\\Python\\\\Python38\\\\site-packages;C:\\\\Users\\\\redmond.xia\\\\AppData\\\\Roaming\\\\Python\\\\Python38\\\\site-packages\\\\win32;C:\\\\Users\\\\redmond.xia\\\\AppData\\\\Roaming\\\\Python\\\\Python38\\\\site-packages\\\\win32\\\\lib;C:\\\\Users\\\\redmond.xia\\\\AppData\\\\Roaming\\\\Python\\\\Python38\\\\site-packages\\\\Pythonwin;C:\\\\Users\\\\redmond.xia\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\lib\\\\site-packages;C:\\\\Users\\\\redmond.xia\\\\AppData\\\\Roaming\\\\Python\\\\Python38\\\\site-packages\\\\IPython\\\\extensions;C:\\\\Users\\\\redmond.xia\\\\.ipython\", \"settings_file\": null}"
+    ]
+
+2021-09-30 14:45:24,248 | MainThread | DEBUG | _make_request | snowflake.connector.vendored.urllib3.connectionpool | https://guidepoint.snowflakecomputing.com:443 "POST /queries/v1/query-request?requestId=2e223c84-3c95-40ea-bea3-512de653fe25&request_guid=0838c8c2-835c-45d4-a61d-4199ef73b6d1 HTTP/1.1" 200 1052
+
+2021-09-30 14:45:24,250 | MainThread | DEBUG | execute | gp.snowflake | SQL CLEAN:
+    set current_git_hash=%s::text
+
+2021-09-30 14:45:24,250 | MainThread | DEBUG | execute | gp.snowflake | Args:
+    "34eeb641b157f6a83d36e864c97b1741c3048d8a"
+
+2021-09-30 14:45:24,471 | MainThread | DEBUG | _make_request | snowflake.connector.vendored.urllib3.connectionpool | https://guidepoint.snowflakecomputing.com:443 "POST /queries/v1/query-request?requestId=f6238477-4d4a-418a-8eff-b8ce31ca9fc8&request_guid=bd2a82e8-c0d4-4d7a-afd5-e2d050e959e5 HTTP/1.1" 200 1008
+
+2021-09-30 15:23:49,798 | MainThread | DEBUG | __init__ | snowflake.connector.converter_issue23517 | initialized
+
+2021-09-30 15:23:49,800 | MainThread | DEBUG | from_int | snowflake.connector.vendored.urllib3.util.retry | Converted retries value: 1 -> Retry(total=1, connect=None, read=None, redirect=None, status=None)
+
+2021-09-30 15:23:49,801 | MainThread | DEBUG | from_int | snowflake.connector.vendored.urllib3.util.retry | Converted retries value: 1 -> Retry(total=1, connect=None, read=None, redirect=None, status=None)
+
+2021-09-30 15:23:49,804 | MainThread | DEBUG | _new_conn | snowflake.connector.vendored.urllib3.connectionpool | Starting new HTTPS connection (1): guidepoint.snowflakecomputing.com:443
+
+2021-09-30 15:23:50,155 | MainThread | DEBUG | reset_ocsp_response_cache_uri | snowflake.connector.ocsp_snowflake | ocsp_response_cache_uri: file://C:/Users/redmond.xia/AppData/Local/Snowflake/Caches/ocsp_response_cache.json
+
+2021-09-30 15:23:50,155 | MainThread | DEBUG | reset_ocsp_response_cache_uri | snowflake.connector.ocsp_snowflake | OCSP_VALIDATION_CACHE size: 146
+
+2021-09-30 15:23:50,156 | MainThread | DEBUG | reset_ocsp_dynamic_cache_server_url | snowflake.connector.ocsp_snowflake | OCSP response cache server is enabled: http://ocsp.snowflakecomputing.com/ocsp_response_cache.json
+
+2021-09-30 15:23:50,156 | MainThread | DEBUG | reset_ocsp_dynamic_cache_server_url | snowflake.connector.ocsp_snowflake | OCSP dynamic cache server RETRY URL: None
+
+2021-09-30 15:23:50,156 | MainThread | DEBUG | check_ocsp_response_cache_lock_dir | snowflake.connector.ocsp_snowflake | The cache is older than 1 day. Deleted the cache file: C:/Users/redmond.xia/AppData/Local/Snowflake/Caches/ocsp_response_cache.json
+
+2021-09-30 15:23:50,156 | MainThread | DEBUG | read_ocsp_response_cache_file | snowflake.connector.ocsp_snowflake | Failed to locate OCSP response cache file. No worry. It will validate with OCSP server: C:/Users/redmond.xia/AppData/Local/Snowflake/Caches/ocsp_response_cache.json
+
+2021-09-30 15:23:50,157 | MainThread | DEBUG | validate | snowflake.connector.ocsp_snowflake | validating certificate: guidepoint.snowflakecomputing.com
+
+2021-09-30 15:23:50,161 | MainThread | DEBUG | find_cache | snowflake.connector.ocsp_snowflake | hit cache for subject: OrderedDict([('common_name', '*.us-west-2.snowflakecomputing.com')])
+
+2021-09-30 15:23:50,162 | MainThread | DEBUG | find_cache | snowflake.connector.ocsp_snowflake | hit cache for subject: OrderedDict([('country_name', 'US'), ('organization_name', 'Amazon'), ('organizational_unit_name', 'Server CA 1B'), ('common_name', 'Amazon')])
+
+2021-09-30 15:23:50,163 | MainThread | DEBUG | find_cache | snowflake.connector.ocsp_snowflake | hit cache for subject: OrderedDict([('country_name', 'US'), ('organization_name', 'Amazon'), ('common_name', 'Amazon Root CA 1')])
+
+2021-09-30 15:23:50,165 | MainThread | DEBUG | find_cache | snowflake.connector.ocsp_snowflake | hit cache for subject: OrderedDict([('country_name', 'US'), ('state_or_province_name', 'Arizona'), ('locality_name', 'Scottsdale'), ('organization_name', 'Starfield Technologies, Inc.'), ('common_name', 'Starfield Services Root Certificate Authority - G2')])
+
+2021-09-30 15:23:50,165 | MainThread | DEBUG | find_cache | snowflake.connector.ocsp_snowflake | hit cache for subject: OrderedDict([('common_name', '*.us-west-2.snowflakecomputing.com')])
+
+2021-09-30 15:23:50,166 | MainThread | DEBUG | validate_by_direct_connection | snowflake.connector.ocsp_snowflake | using OCSP response cache
+
+2021-09-30 15:23:50,170 | MainThread | DEBUG | find_cache | snowflake.connector.ocsp_snowflake | hit cache for subject: OrderedDict([('country_name', 'US'), ('organization_name', 'Amazon'), ('organizational_unit_name', 'Server CA 1B'), ('common_name', 'Amazon')])
+
+2021-09-30 15:23:50,171 | MainThread | DEBUG | validate_by_direct_connection | snowflake.connector.ocsp_snowflake | using OCSP response cache
+
+2021-09-30 15:23:50,176 | MainThread | DEBUG | find_cache | snowflake.connector.ocsp_snowflake | hit cache for subject: OrderedDict([('country_name', 'US'), ('organization_name', 'Amazon'), ('common_name', 'Amazon Root CA 1')])
+
+2021-09-30 15:23:50,177 | MainThread | DEBUG | validate_by_direct_connection | snowflake.connector.ocsp_snowflake | using OCSP response cache
+
+2021-09-30 15:23:50,182 | MainThread | DEBUG | find_cache | snowflake.connector.ocsp_snowflake | hit cache for subject: OrderedDict([('country_name', 'US'), ('state_or_province_name', 'Arizona'), ('locality_name', 'Scottsdale'), ('organization_name', 'Starfield Technologies, Inc.'), ('common_name', 'Starfield Services Root Certificate Authority - G2')])
+
+2021-09-30 15:23:50,182 | MainThread | DEBUG | validate_by_direct_connection | snowflake.connector.ocsp_snowflake | using OCSP response cache
+
+2021-09-30 15:23:50,188 | MainThread | DEBUG | write_ocsp_response_cache_file | snowflake.connector.ocsp_snowflake | writing OCSP response cache file to C:/Users/redmond.xia/AppData/Local/Snowflake/Caches/ocsp_response_cache.json
+
+2021-09-30 15:23:50,188 | MainThread | DEBUG | encode_ocsp_response_cache | snowflake.connector.ocsp_snowflake | encoding OCSP response cache to JSON
+
+2021-09-30 15:23:50,203 | MainThread | DEBUG | _validate | snowflake.connector.ocsp_snowflake | ok
+
+2021-09-30 15:23:50,571 | MainThread | DEBUG | _make_request | snowflake.connector.vendored.urllib3.connectionpool | https://guidepoint.snowflakecomputing.com:443 "POST /session/v1/login-request?request_id=06ab03e0-8c2e-45c2-b395-0d4294f7b029&request_guid=a9e863a0-06a8-49aa-b159-8599ce5bdf45 HTTP/1.1" 200 1422
+
+2021-09-30 15:23:51,158 | MainThread | DEBUG | _make_request | snowflake.connector.vendored.urllib3.connectionpool | https://guidepoint.snowflakecomputing.com:443 "POST /queries/v1/query-request?requestId=c7962b68-6445-465a-b676-063f1f3eebff&request_guid=4edb0918-0175-4a73-9adb-fbc3c966104c HTTP/1.1" 200 1099
+

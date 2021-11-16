@@ -6,7 +6,7 @@ def download_data(str_url):
     option.add_argument("start-maximized")
     option.add_argument("--disable-blink-features=AutomationControlled")
     option.add_argument("--disable-blink-features")
-    prefs={"download.default_directory" : r"D:\RedX Capital\crypto\Data\master_data\temp"}
+    prefs={"download.default_directory" : r"D:\RedXCapital\crypto\Data\master_data\temp"}
     option.add_experimental_option("prefs", prefs)
     driver=uc.Chrome(options=option)
     driver.implicitly_wait(2)
@@ -35,7 +35,7 @@ def update_data(master_files_list, update_files_list):
 
     for i in update_files_list:
         update_df=pd.read_csv(i)
-        recent_5_days=update_df.tail().copy()
+        recent_5_days=update_df.tail(10).copy()
         recent_5_days_dates=pd.to_datetime(recent_5_days['snapped_at']).dt.date
 
         if i.split("\\")[-1] in master_data_names: # checking if the update file is in master file

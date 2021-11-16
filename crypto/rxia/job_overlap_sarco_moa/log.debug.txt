@@ -1,0 +1,275 @@
+2021-08-24 12:19:19,348 | MainThread | DEBUG | init_logger | root | Logging configured
+
+2021-08-24 12:19:19,350 | MainThread | INFO | <module> | gp.settings | SETTINGS FILE: settings.dev.json
+
+2021-08-24 12:19:20,453 | MainThread | DEBUG | __init__ | snowflake.connector.converter_issue23517 | initialized
+
+2021-08-24 12:19:20,454 | MainThread | DEBUG | from_int | snowflake.connector.vendored.urllib3.util.retry | Converted retries value: 1 -> Retry(total=1, connect=None, read=None, redirect=None, status=None)
+
+2021-08-24 12:19:20,454 | MainThread | DEBUG | from_int | snowflake.connector.vendored.urllib3.util.retry | Converted retries value: 1 -> Retry(total=1, connect=None, read=None, redirect=None, status=None)
+
+2021-08-24 12:19:20,455 | MainThread | DEBUG | _new_conn | snowflake.connector.vendored.urllib3.connectionpool | Starting new HTTPS connection (1): guidepoint.snowflakecomputing.com:443
+
+2021-08-24 12:19:20,831 | MainThread | DEBUG | reset_cache_dir | snowflake.connector.ocsp_snowflake | cache directory: C:\Users\redmond.xia\AppData\Local\Snowflake\Caches
+
+2021-08-24 12:19:20,862 | MainThread | DEBUG | reset_ocsp_response_cache_uri | snowflake.connector.ocsp_snowflake | ocsp_response_cache_uri: file://C:/Users/redmond.xia/AppData/Local/Snowflake/Caches/ocsp_response_cache.json
+
+2021-08-24 12:19:20,862 | MainThread | DEBUG | reset_ocsp_response_cache_uri | snowflake.connector.ocsp_snowflake | OCSP_VALIDATION_CACHE size: 0
+
+2021-08-24 12:19:20,862 | MainThread | DEBUG | reset_ocsp_dynamic_cache_server_url | snowflake.connector.ocsp_snowflake | OCSP response cache server is enabled: http://ocsp.snowflakecomputing.com/ocsp_response_cache.json
+
+2021-08-24 12:19:20,862 | MainThread | DEBUG | reset_ocsp_dynamic_cache_server_url | snowflake.connector.ocsp_snowflake | OCSP dynamic cache server RETRY URL: None
+
+2021-08-24 12:19:20,863 | MainThread | DEBUG | check_ocsp_response_cache_lock_dir | snowflake.connector.ocsp_snowflake | The cache is older than 1 day. Deleted the cache file: C:/Users/redmond.xia/AppData/Local/Snowflake/Caches/ocsp_response_cache.json
+
+2021-08-24 12:19:20,863 | MainThread | DEBUG | read_ocsp_response_cache_file | snowflake.connector.ocsp_snowflake | Failed to locate OCSP response cache file. No worry. It will validate with OCSP server: C:/Users/redmond.xia/AppData/Local/Snowflake/Caches/ocsp_response_cache.json
+
+2021-08-24 12:19:20,863 | MainThread | DEBUG | validate | snowflake.connector.ocsp_snowflake | validating certificate: guidepoint.snowflakecomputing.com
+
+2021-08-24 12:19:20,879 | MainThread | DEBUG | find_cache | snowflake.connector.ocsp_snowflake | not hit cache for subject: OrderedDict([('common_name', '*.us-west-2.snowflakecomputing.com')])
+
+2021-08-24 12:19:20,879 | MainThread | DEBUG | _download_ocsp_response_cache | snowflake.connector.ocsp_snowflake | started downloading OCSP response cache file: http://ocsp.snowflakecomputing.com/ocsp_response_cache.json
+
+2021-08-24 12:19:21,102 | MainThread | DEBUG | _download_ocsp_response_cache | snowflake.connector.ocsp_snowflake | ended downloading OCSP response cache file. elapsed time: 0.223158597946167s
+
+2021-08-24 12:19:21,103 | MainThread | DEBUG | download_cache_from_server | snowflake.connector.ocsp_snowflake | downloaded OCSP response cache file from http://ocsp.snowflakecomputing.com/ocsp_response_cache.json
+
+2021-08-24 12:19:21,103 | MainThread | DEBUG | download_cache_from_server | snowflake.connector.ocsp_snowflake | # of certificates: 146
+
+2021-08-24 12:19:21,103 | MainThread | DEBUG | find_cache | snowflake.connector.ocsp_snowflake | hit cache for subject: OrderedDict([('common_name', '*.us-west-2.snowflakecomputing.com')])
+
+2021-08-24 12:19:21,104 | MainThread | DEBUG | validate_by_direct_connection | snowflake.connector.ocsp_snowflake | using OCSP response cache
+
+2021-08-24 12:19:21,136 | MainThread | DEBUG | find_cache | snowflake.connector.ocsp_snowflake | hit cache for subject: OrderedDict([('country_name', 'US'), ('organization_name', 'Amazon'), ('organizational_unit_name', 'Server CA 1B'), ('common_name', 'Amazon')])
+
+2021-08-24 12:19:21,136 | MainThread | DEBUG | validate_by_direct_connection | snowflake.connector.ocsp_snowflake | using OCSP response cache
+
+2021-08-24 12:19:21,141 | MainThread | DEBUG | find_cache | snowflake.connector.ocsp_snowflake | hit cache for subject: OrderedDict([('country_name', 'US'), ('organization_name', 'Amazon'), ('common_name', 'Amazon Root CA 1')])
+
+2021-08-24 12:19:21,142 | MainThread | DEBUG | validate_by_direct_connection | snowflake.connector.ocsp_snowflake | using OCSP response cache
+
+2021-08-24 12:19:21,147 | MainThread | DEBUG | find_cache | snowflake.connector.ocsp_snowflake | hit cache for subject: OrderedDict([('country_name', 'US'), ('state_or_province_name', 'Arizona'), ('locality_name', 'Scottsdale'), ('organization_name', 'Starfield Technologies, Inc.'), ('common_name', 'Starfield Services Root Certificate Authority - G2')])
+
+2021-08-24 12:19:21,148 | MainThread | DEBUG | validate_by_direct_connection | snowflake.connector.ocsp_snowflake | using OCSP response cache
+
+2021-08-24 12:19:21,152 | MainThread | DEBUG | write_ocsp_response_cache_file | snowflake.connector.ocsp_snowflake | writing OCSP response cache file to C:/Users/redmond.xia/AppData/Local/Snowflake/Caches/ocsp_response_cache.json
+
+2021-08-24 12:19:21,152 | MainThread | DEBUG | encode_ocsp_response_cache | snowflake.connector.ocsp_snowflake | encoding OCSP response cache to JSON
+
+2021-08-24 12:19:21,170 | MainThread | DEBUG | _validate | snowflake.connector.ocsp_snowflake | ok
+
+2021-08-24 12:19:21,563 | MainThread | DEBUG | _make_request | snowflake.connector.vendored.urllib3.connectionpool | https://guidepoint.snowflakecomputing.com:443 "POST /session/v1/login-request?request_id=573840d5-0e3c-4c8c-9c60-68de96391957&roleName=analyst&request_guid=1144cc33-9947-43cb-966f-b2486371f90b HTTP/1.1" 200 1433
+
+2021-08-24 12:19:21,564 | MainThread | DEBUG | connect | gp.snowflake | Snowflake Connector Version: 2.3.10
+
+2021-08-24 12:19:21,564 | MainThread | DEBUG | connect | gp.snowflake | Snowflake Connected: user=rxia
+
+2021-08-24 12:19:21,564 | MainThread | DEBUG | execute | gp.snowflake | SQL CLEAN:
+    select rawdata.metadata.job_run_id.nextval as run_id
+
+2021-08-24 12:19:21,870 | MainThread | DEBUG | _make_request | snowflake.connector.vendored.urllib3.connectionpool | https://guidepoint.snowflakecomputing.com:443 "POST /queries/v1/query-request?requestId=06460c72-dc49-48bc-a358-d2a2348eea15&request_guid=b120b8be-6f61-4922-8584-9ffb8a80d386 HTTP/1.1" 200 1012
+
+2021-08-24 12:19:21,871 | MainThread | INFO | get_run_id | gp.runlog | RUN_ID: 46153
+
+2021-08-24 12:19:21,871 | MainThread | DEBUG | execute | gp.snowflake | SQL CLEAN:
+    alter session set query_tag='RUN_ID=46153'
+
+2021-08-24 12:19:22,042 | MainThread | DEBUG | _make_request | snowflake.connector.vendored.urllib3.connectionpool | https://guidepoint.snowflakecomputing.com:443 "POST /queries/v1/query-request?requestId=8e2dfa9f-f90a-469e-9251-810d8cd310ad&request_guid=8abb6ae8-aea8-44a6-b406-f2b3fe6ffd1b HTTP/1.1" 200 1017
+
+2021-08-24 12:19:22,043 | MainThread | DEBUG | execute | gp.snowflake | SQL CLEAN:
+    set current_run_id=46153::number
+
+2021-08-24 12:19:22,223 | MainThread | DEBUG | _make_request | snowflake.connector.vendored.urllib3.connectionpool | https://guidepoint.snowflakecomputing.com:443 "POST /queries/v1/query-request?requestId=23d79dad-63dc-4099-8c34-b7934b1c67a8&request_guid=45662409-6b31-4bf8-bca4-1835290bd5da HTTP/1.1" 200 1019
+
+2021-08-24 12:19:22,482 | MainThread | DEBUG | _initialize | gp.job | Python Version: 3.8.7 (tags/v3.8.7:6503f05, Dec 21 2020, 17:59:51) [MSC v.1928 64 bit (AMD64)]
+
+2021-08-24 12:19:22,592 | MainThread | DEBUG | _initialize | gp.job | Working Directory: C:\dev\da.research\personal\rxia\job_overlap_sarco_moa
+
+2021-08-24 12:19:22,593 | MainThread | DEBUG | _initialize | gp.job | Username=redmond.xia, Hostname=GP-BSX70Z2, Host IP=192.168.0.14, External IP=<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en-US"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en-US"> <!--<![endif]-->
+<head>
+<title>Access denied | ipapi.co used Cloudflare to restrict access</title>
+<meta charset="UTF-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+<meta name="robots" content="noindex, nofollow" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<link rel="stylesheet" id="cf_styles-css" href="/cdn-cgi/styles/main.css" type="text/css" media="screen,projection" />
+
+
+</head>
+<body>
+  <div id="cf-wrapper">
+    <div class="cf-alert cf-alert-error cf-cookie-error hidden" id="cookie-alert" data-translate="enable_cookies">Please enable cookies.</div>
+    <div id="cf-error-details" class="p-0">
+      <header class="mx-auto pt-10 lg:pt-6 lg:px-8 w-240 lg:w-full mb-15 antialiased">
+         <h1 class="inline-block md:block mr-2 md:mb-2 font-light text-60 md:text-3xl text-black-dark leading-tight">
+           <span data-translate="error">Error</span>
+           <span>1020</span>
+         </h1>
+         <span class="inline-block md:block heading-ray-id font-mono text-15 lg:text-sm lg:leading-relaxed">Ray ID: 683de6e01b961978 &bull;</span>
+         <span class="inline-block md:block heading-ray-id font-mono text-15 lg:text-sm lg:leading-relaxed">2021-08-24 16:19:22 UTC</span>
+        <h2 class="text-gray-600 leading-1.3 text-3xl lg:text-2xl font-light">Access denied</h2>
+      </header>
+
+      <section class="w-240 lg:w-full mx-auto mb-8 lg:px-8">
+          <div id="what-happened-section" class="w-1/2 md:w-full">
+            <h2 class="text-3xl leading-tight font-normal mb-4 text-black-dark antialiased" data-translate="what_happened">What happened?</h2>
+            <p>This website is using a security service to protect itself from online attacks.</p>
+            
+          </div>
+
+          
+      </section>
+
+      <div class="cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300">
+  <p class="text-13">
+    <span class="cf-footer-item sm:block sm:mb-1">Cloudflare Ray ID: <strong class="font-semibold">683de6e01b961978</strong></span>
+    <span class="cf-footer-separator sm:hidden">&bull;</span>
+    <span class="cf-footer-item sm:block sm:mb-1"><span>Your IP</span>: 184.152.13.179</span>
+    <span class="cf-footer-separator sm:hidden">&bull;</span>
+    <span class="cf-footer-item sm:block sm:mb-1"><span>Performance &amp; security by</span> <a rel="noopener noreferrer" href="https://www.cloudflare.com/5xx-error-landing" id="brand_link" target="_blank">Cloudflare</a></span>
+    
+  </p>
+</div><!-- /.error-footer -->
+
+
+    </div><!-- /#cf-error-details -->
+  </div><!-- /#cf-wrapper -->
+
+  <script type="text/javascript">
+  window._cf_translation = {};
+  
+  
+</script>
+
+</body>
+</html>
+
+
+2021-08-24 12:19:22,593 | MainThread | DEBUG | _initialize | gp.job | Windows 10.0.19041, 64bit, AMD64, Intel64 Family 6 Model 158 Stepping 13, GenuineIntel 
+
+2021-08-24 12:19:22,593 | MainThread | DEBUG | _initialize | gp.job | Memmory Used: 10.4 MB
+
+2021-08-24 12:19:22,594 | MainThread | DEBUG | _initialize | gp.job | Module Paths: ['C:\\dev\\da.research\\personal\\rxia\\job_overlap_sarco_moa', 'c:\\dev\\da.etl', 'c:\\dev\\da.main\\Job\\shared', 'C:\\dev\\da.research\\personal\\rxia', 'C:\\dev\\da.research\\personal\\rxia\\job_overlap_sarco_moa', 'C:\\Users\\redmond.xia\\AppData\\Local\\Programs\\Python\\python38.zip', 'C:\\Users\\redmond.xia\\AppData\\Local\\Programs\\Python\\DLLs', 'C:\\Users\\redmond.xia\\AppData\\Local\\Programs\\Python\\lib', 'C:\\Users\\redmond.xia\\AppData\\Local\\Programs\\Python', 'C:\\Users\\redmond.xia\\AppData\\Roaming\\Python\\Python38\\site-packages', 'C:\\Users\\redmond.xia\\AppData\\Roaming\\Python\\Python38\\site-packages\\win32', 'C:\\Users\\redmond.xia\\AppData\\Roaming\\Python\\Python38\\site-packages\\win32\\lib', 'C:\\Users\\redmond.xia\\AppData\\Roaming\\Python\\Python38\\site-packages\\Pythonwin', 'C:\\Users\\redmond.xia\\AppData\\Local\\Programs\\Python\\lib\\site-packages']
+
+2021-08-24 12:19:22,594 | MainThread | DEBUG | _initialize | gp.job | Command Line: ['main.py', 'dev']
+
+2021-08-24 12:19:22,594 | MainThread | DEBUG | _initialize | gp.job | Boto3 Version: 1.17.4
+
+2021-08-24 12:19:22,824 | MainThread | DEBUG | _make_request | snowflake.connector.vendored.urllib3.connectionpool | https://guidepoint.snowflakecomputing.com:443 "POST /queries/v1/query-request?requestId=14ff6e0d-b0e5-4034-a7ce-43134c2697eb&request_guid=3491e196-35c4-4160-8a23-4e8a111b965b HTTP/1.1" 200 1391
+
+2021-08-24 12:19:22,928 | MainThread | DEBUG | get_warehouse_details | gp.snowflake | {'name': 'SKYWALKER', 'state': 'STARTED', 'type': 'STANDARD', 'size': 'Small', 'running': 0, 'queued': 0, 'is_default': 'Y', 'is_current': 'Y', 'auto_suspend': 300, 'auto_resume': 'true', 'available': ' 100', 'provisioning': '0', 'quiescing': '0', 'other': '0', 'created_on': datetime.datetime(2017, 2, 13, 14, 10, 54, 143000, tzinfo=<DstTzInfo 'America/New_York' EST-1 day, 19:00:00 STD>), 'resumed_on': datetime.datetime(2021, 8, 24, 11, 0, 46, 810000, tzinfo=<DstTzInfo 'America/New_York' EDT-1 day, 20:00:00 DST>), 'updated_on': datetime.datetime(2021, 8, 24, 11, 0, 46, 810000, tzinfo=<DstTzInfo 'America/New_York' EDT-1 day, 20:00:00 DST>), 'owner': 'SYSADMIN', 'comment': 'Thursday Moa Run', 'resource_monitor': 'null', 'actives': 2, 'pendings': 0, 'failed': 0, 'suspended': 0, 'uuid': '1012996'}
+
+2021-08-24 12:19:22,928 | MainThread | DEBUG | execute | gp.snowflake | SQL CLEAN:
+    insert into rawdata.metadata.job_run_v3 (run_id, job_group, job_name, settings_file, host_ip, host_name, windows_user, git_timestamp, git_hash, git_status, git_describe, warehouse_size, details)
+            select $1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, parse_json($13)
+            from values (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s);
+
+2021-08-24 12:19:22,928 | MainThread | DEBUG | execute | gp.snowflake | Args:
+    [
+        46153,
+        "rxia",
+        "overlap sarco moa",
+        "settings.dev.json",
+        "192.168.0.14",
+        "GP-BSX70Z2",
+        "REDMOND.XIA",
+        "2021-08-24 10:03:16 -0400",
+        "937713c71b69e28280659791f67d7ba1c9a0dcba",
+        " M Job/sarco/job_sarco_product/settings/settings.dev.json\n M Job/sarco/job_sarco_product/settings/settings.live.json\n",
+        "v20180326.2001-4586-g937713c7",
+        "Small",
+        "{\"python_version\": \"3.8.7 (tags/v3.8.7:6503f05, Dec 21 2020, 17:59:51) [MSC v.1928 64 bit (AMD64)]\", \"external_ip\": \"<!DOCTYPE html>\\n<!--[if lt IE 7]> <html class=\\\"no-js ie6 oldie\\\" lang=\\\"en-US\\\"> <![endif]-->\\n<!--[if IE 7]>    <html class=\\\"no-js ie7 oldie\\\" lang=\\\"en-US\\\"> <![endif]-->\\n<!--[if IE 8]>    <html class=\\\"no-js ie8 oldie\\\" lang=\\\"en-US\\\"> <![endif]-->\\n<!--[if gt IE 8]><!--> <html class=\\\"no-js\\\" lang=\\\"en-US\\\"> <!--<![endif]-->\\n<head>\\n<title>Access denied | ipapi.co used Cloudflare to restrict access</title>\\n<meta charset=\\\"UTF-8\\\" />\\n<meta http-equiv=\\\"Content-Type\\\" content=\\\"text/html; charset=UTF-8\\\" />\\n<meta http-equiv=\\\"X-UA-Compatible\\\" content=\\\"IE=Edge,chrome=1\\\" />\\n<meta name=\\\"robots\\\" content=\\\"noindex, nofollow\\\" />\\n<meta name=\\\"viewport\\\" content=\\\"width=device-width,initial-scale=1\\\" />\\n<link rel=\\\"stylesheet\\\" id=\\\"cf_styles-css\\\" href=\\\"/cdn-cgi/styles/main.css\\\" type=\\\"text/css\\\" media=\\\"screen,projection\\\" />\\n\\n\\n</head>\\n<body>\\n  <div id=\\\"cf-wrapper\\\">\\n    <div class=\\\"cf-alert cf-alert-error cf-cookie-error hidden\\\" id=\\\"cookie-alert\\\" data-translate=\\\"enable_cookies\\\">Please enable cookies.</div>\\n    <div id=\\\"cf-error-details\\\" class=\\\"p-0\\\">\\n      <header class=\\\"mx-auto pt-10 lg:pt-6 lg:px-8 w-240 lg:w-full mb-15 antialiased\\\">\\n         <h1 class=\\\"inline-block md:block mr-2 md:mb-2 font-light text-60 md:text-3xl text-black-dark leading-tight\\\">\\n           <span data-translate=\\\"error\\\">Error</span>\\n           <span>1020</span>\\n         </h1>\\n         <span class=\\\"inline-block md:block heading-ray-id font-mono text-15 lg:text-sm lg:leading-relaxed\\\">Ray ID: 683de6e01b961978 &bull;</span>\\n         <span class=\\\"inline-block md:block heading-ray-id font-mono text-15 lg:text-sm lg:leading-relaxed\\\">2021-08-24 16:19:22 UTC</span>\\n        <h2 class=\\\"text-gray-600 leading-1.3 text-3xl lg:text-2xl font-light\\\">Access denied</h2>\\n      </header>\\n\\n      <section class=\\\"w-240 lg:w-full mx-auto mb-8 lg:px-8\\\">\\n          <div id=\\\"what-happened-section\\\" class=\\\"w-1/2 md:w-full\\\">\\n            <h2 class=\\\"text-3xl leading-tight font-normal mb-4 text-black-dark antialiased\\\" data-translate=\\\"what_happened\\\">What happened?</h2>\\n            <p>This website is using a security service to protect itself from online attacks.</p>\\n            \\n          </div>\\n\\n          \\n      </section>\\n\\n      <div class=\\\"cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300\\\">\\n  <p class=\\\"text-13\\\">\\n    <span class=\\\"cf-footer-item sm:block sm:mb-1\\\">Cloudflare Ray ID: <strong class=\\\"font-semibold\\\">683de6e01b961978</strong></span>\\n    <span class=\\\"cf-footer-separator sm:hidden\\\">&bull;</span>\\n    <span class=\\\"cf-footer-item sm:block sm:mb-1\\\"><span>Your IP</span>: 184.152.13.179</span>\\n    <span class=\\\"cf-footer-separator sm:hidden\\\">&bull;</span>\\n    <span class=\\\"cf-footer-item sm:block sm:mb-1\\\"><span>Performance &amp; security by</span> <a rel=\\\"noopener noreferrer\\\" href=\\\"https://www.cloudflare.com/5xx-error-landing\\\" id=\\\"brand_link\\\" target=\\\"_blank\\\">Cloudflare</a></span>\\n    \\n  </p>\\n</div><!-- /.error-footer -->\\n\\n\\n    </div><!-- /#cf-error-details -->\\n  </div><!-- /#cf-wrapper -->\\n\\n  <script type=\\\"text/javascript\\\">\\n  window._cf_translation = {};\\n  \\n  \\n</script>\\n\\n</body>\\n</html>\\n\", \"workding_dir\": \"C:\\\\dev\\\\da.research\\\\personal\\\\rxia\\\\job_overlap_sarco_moa\", \"command_line\": \"main.py dev\", \"platform_system\": \"Windows\", \"plaform_version\": \"10.0.19041\", \"platform_architecture\": \"64bit\", \"platform_machine\": \"AMD64\", \"platform_processor\": \"Intel64 Family 6 Model 158 Stepping 13, GenuineIntel\", \"memory_used_mb\": 10.3591936, \"module_paths\": \"C:\\\\dev\\\\da.research\\\\personal\\\\rxia\\\\job_overlap_sarco_moa;c:\\\\dev\\\\da.etl;c:\\\\dev\\\\da.main\\\\Job\\\\shared;C:\\\\dev\\\\da.research\\\\personal\\\\rxia;C:\\\\dev\\\\da.research\\\\personal\\\\rxia\\\\job_overlap_sarco_moa;C:\\\\Users\\\\redmond.xia\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\python38.zip;C:\\\\Users\\\\redmond.xia\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\DLLs;C:\\\\Users\\\\redmond.xia\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\lib;C:\\\\Users\\\\redmond.xia\\\\AppData\\\\Local\\\\Programs\\\\Python;C:\\\\Users\\\\redmond.xia\\\\AppData\\\\Roaming\\\\Python\\\\Python38\\\\site-packages;C:\\\\Users\\\\redmond.xia\\\\AppData\\\\Roaming\\\\Python\\\\Python38\\\\site-packages\\\\win32;C:\\\\Users\\\\redmond.xia\\\\AppData\\\\Roaming\\\\Python\\\\Python38\\\\site-packages\\\\win32\\\\lib;C:\\\\Users\\\\redmond.xia\\\\AppData\\\\Roaming\\\\Python\\\\Python38\\\\site-packages\\\\Pythonwin;C:\\\\Users\\\\redmond.xia\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\lib\\\\site-packages\", \"settings_file\": null}"
+    ]
+
+2021-08-24 12:19:23,697 | MainThread | DEBUG | _make_request | snowflake.connector.vendored.urllib3.connectionpool | https://guidepoint.snowflakecomputing.com:443 "POST /queries/v1/query-request?requestId=92507524-09cd-4ef9-bc3d-8ee3570f8344&request_guid=798fcc2b-f806-4aac-8b52-4aa94f59893e HTTP/1.1" 200 1062
+
+2021-08-24 12:19:23,698 | MainThread | DEBUG | execute | gp.snowflake | SQL CLEAN:
+    set current_git_hash=%s::text
+
+2021-08-24 12:19:23,698 | MainThread | DEBUG | execute | gp.snowflake | Args:
+    "937713c71b69e28280659791f67d7ba1c9a0dcba"
+
+2021-08-24 12:19:23,893 | MainThread | DEBUG | _make_request | snowflake.connector.vendored.urllib3.connectionpool | https://guidepoint.snowflakecomputing.com:443 "POST /queries/v1/query-request?requestId=d83accf5-73fe-42e0-88e8-1be9673348fd&request_guid=5ada40d5-880b-47ff-8f57-8835d352c3a8 HTTP/1.1" 200 1020
+
+2021-08-24 12:19:24,944 | MainThread | DEBUG | run_steps | gp.runner | steps: ['steps\\step_00_init.sql', 'steps\\step_10.sql', 'steps\\step_15.sql', 'steps\\step_90_finish.sql']
+
+2021-08-24 12:19:24,944 | MainThread | INFO | run_sql_step | gp.runner | run_sql_step: steps\step_00_init.sql
+
+2021-08-24 12:19:24,945 | MainThread | DEBUG | run_sql_step | gp.runner | env.globals: {'range': <class 'range'>, 'dict': <class 'dict'>, 'lipsum': <function generate_lorem_ipsum at 0x0000020BFF1719D0>, 'cycler': <class 'jinja2.utils.Cycler'>, 'joiner': <class 'jinja2.utils.Joiner'>, 'namespace': <class 'jinja2.utils.Namespace'>, 'fetch_all_simple': <function fetch_all_simple at 0x0000020BFF0669D0>, 'fetch_one_simple': <function fetch_one_simple at 0x0000020BFF225550>, 'fetch_value': <function fetch_value at 0x0000020BFF22D550>, 'SimpleNamespace': <class 'types.SimpleNamespace'>, 'last_fetch': [], 'settings': None, 'run_id': 46153, 'git_hash': '937713c71b69e28280659791f67d7ba1c9a0dcba', 'run_date': datetime.date(2021, 8, 24), 'job_output_url': 'https://s3.amazonaws.com/guidepoint.internal/job/rxia/job_overlap_sarco_moa/20210824.46153.none.937713c71b69e28280659791f67d7ba1c9a0dcba', 'cwd': 'C:\\dev\\da.research\\personal\\rxia\\job_overlap_sarco_moa', 'log_debug': <function log_debug at 0x0000020BFF22D5E0>, 'log_info': <function log_info at 0x0000020BFF22D670>, 'log_warning': <function log_warning at 0x0000020BFF22D700>, 'log_error': <function log_error at 0x0000020BFF22D790>, 'raise': <function raise_helper at 0x0000020BFF22D8B0>, 'assert': <function assert_helper at 0x0000020BFF22D820>, 'validate_pk': <function validate_primary_keys at 0x0000020BFF22D9D0>, 'validate_uk': <function validate_unique_keys at 0x0000020BFF22DA60>, 'modules': {}}
+
+2021-08-24 12:19:24,949 | MainThread | CRITICAL | _uncaught_exception_handler | gp.job | UNCAUGHT EXCEPTION
+Traceback (most recent call last):
+  File "main.py", line 4, in <module>
+    gp.runner.run_steps()
+  File "c:\dev\da.main\Job\shared\gp\runner.py", line 617, in run_steps
+    run_step(filename)
+  File "c:\dev\da.main\Job\shared\gp\runner.py", line 602, in run_step
+    if filename.endswith('.sql'):  run_sql_step(filename)
+  File "c:\dev\da.main\Job\shared\gp\runner.py", line 368, in run_sql_step
+    sql_rendered = str(t.module).replace('$SEMICOLON$',';')
+  File "C:\Users\redmond.xia\AppData\Local\Programs\Python\lib\site-packages\jinja2\environment.py", line 1189, in module
+    return self._get_default_module()
+  File "C:\Users\redmond.xia\AppData\Local\Programs\Python\lib\site-packages\jinja2\environment.py", line 1172, in _get_default_module
+    self._module = rv = self.make_module()
+  File "C:\Users\redmond.xia\AppData\Local\Programs\Python\lib\site-packages\jinja2\environment.py", line 1155, in make_module
+    return TemplateModule(self, self.new_context(vars, shared, locals))
+  File "C:\Users\redmond.xia\AppData\Local\Programs\Python\lib\site-packages\jinja2\environment.py", line 1238, in __init__
+    body_stream = list(template.root_render_func(context))
+  File "<template>", line 20, in root
+  File "C:\Users\redmond.xia\AppData\Local\Programs\Python\lib\site-packages\jinja2\runtime.py", line 747, in _fail_with_undefined_error
+    raise self._undefined_exception(self._undefined_message)
+jinja2.exceptions.UndefinedError: 'None' has no attribute 'database'
+2021-08-24 12:19:24,955 | MainThread | INFO | _finish | gp.job | duration seconds: 2.73
+
+2021-08-24 12:19:24,955 | MainThread | INFO | _finish | gp.job | duration minutes: 0.05
+
+2021-08-24 12:19:24,955 | MainThread | DEBUG | _finish | gp.job | Memmory Used: 107.6 MB, Delta: 97.3 MB
+
+2021-08-24 12:19:24,956 | MainThread | INFO | _finish | gp.job | JOB RESULT:  FAIL
+
+2021-08-24 12:19:24,956 | MainThread | DEBUG | execute | gp.snowflake | SQL CLEAN:
+    update rawdata.metadata.job_run_v3
+            set finish_success=%s, finish_error=%s, finish_time=current_timestamp(), finish_duration=timestampdiff(second, start_time, current_timestamp()), finish_details=parse_json(%s)
+            where run_id=%s
+
+2021-08-24 12:19:24,956 | MainThread | DEBUG | execute | gp.snowflake | Args:
+    [
+        false,
+        "'None' has no attribute 'database'",
+        "{\"memory_used_mb\": 107.610112, \"memory_delta_mb\": 97.2509184}",
+        46153
+    ]
+
+2021-08-24 12:19:25,790 | MainThread | DEBUG | _make_request | snowflake.connector.vendored.urllib3.connectionpool | https://guidepoint.snowflakecomputing.com:443 "POST /queries/v1/query-request?requestId=09dbd422-7855-48df-9be6-2aa72204e564&request_guid=2f9624a3-8031-45dc-b188-de4bf0ed7220 HTTP/1.1" 200 1082
+
+2021-08-24 12:19:25,791 | MainThread | DEBUG | execute | gp.snowflake | SQL CLEAN:
+    delete from rawdata.metadata.job_query_history where datediff(days, start_time, current_timestamp())>30
+
+2021-08-24 12:19:26,268 | MainThread | DEBUG | _make_request | snowflake.connector.vendored.urllib3.connectionpool | https://guidepoint.snowflakecomputing.com:443 "POST /queries/v1/query-request?requestId=75c76262-ca66-4b6a-a0a3-4cb6b48ec188&request_guid=4246432e-0464-4363-82ce-6c5a381762ba HTTP/1.1" 200 1008
+
+2021-08-24 12:19:26,270 | MainThread | DEBUG | execute | gp.snowflake | SQL CLEAN:
+    insert into rawdata.metadata.job_query_history 
+            select %s as run_id, QUERY_ID,QUERY_TEXT,DATABASE_NAME,SCHEMA_NAME,QUERY_TYPE,SESSION_ID,USER_NAME,ROLE_NAME,WAREHOUSE_NAME,WAREHOUSE_SIZE,WAREHOUSE_TYPE,QUERY_TAG,EXECUTION_STATUS,ERROR_CODE,ERROR_MESSAGE,START_TIME,END_TIME,TOTAL_ELAPSED_TIME,COMPILATION_TIME,EXECUTION_TIME,QUEUED_PROVISIONING_TIME,QUEUED_REPAIR_TIME,QUEUED_OVERLOAD_TIME,TRANSACTION_BLOCKED_TIME,OUTBOUND_DATA_TRANSFER_CLOUD,OUTBOUND_DATA_TRANSFER_REGION,OUTBOUND_DATA_TRANSFER_BYTES
+            from table(rawdata.information_schema.query_history_by_session(session_id => current_session()::number, result_limit => 10000))
+            order by start_time
+
+2021-08-24 12:19:26,270 | MainThread | DEBUG | execute | gp.snowflake | Args:
+    [
+        46153
+    ]
+
+2021-08-24 12:19:27,532 | MainThread | DEBUG | _make_request | snowflake.connector.vendored.urllib3.connectionpool | https://guidepoint.snowflakecomputing.com:443 "POST /queries/v1/query-request?requestId=59ffb9ab-c04d-40dd-bfa5-cf38fffd5f98&request_guid=ea9e1c01-ea49-4f5a-afca-8eb943d47a3d HTTP/1.1" 200 1064
+
+2021-08-24 12:19:31,725 | MainThread | DEBUG | upload_file | gp.s3 | filename=./tmp\output.step_00_init.sql, url=s3://guidepoint.internal/job/rxia/job_overlap_sarco_moa/20210824.46153.none.937713c71b69e28280659791f67d7ba1c9a0dcba/output/output.step_00_init.sql
+
+2021-08-24 12:19:31,729 | MainThread | DEBUG | _finish | gp.job | Unable to locate credentials
+
+2021-08-24 12:19:31,729 | MainThread | WARNING | _finish | gp.job | ARCHIVING AND EMAILING OF LOGS DISABLED
+
+2021-08-24 12:19:31,730 | MainThread | DEBUG | _exit | gp.job | ******* EXIT *******
+

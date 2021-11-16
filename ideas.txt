@@ -20,4 +20,8 @@ XYLD-SP500
 growth rate. 
 MUSI
 
+forecast next 5 years. first year having monthly input it into alpha risk model
+
 daily binary options classifier
+
+fear and greed index prediction to relate to stock market

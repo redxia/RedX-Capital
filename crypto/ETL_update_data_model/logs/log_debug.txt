@@ -1,0 +1,93 @@
+2021-10-27 00:57:40,338 | MainThread | DEBUG | init_logger | root | Logging configured
+
+2021-10-27 00:57:40,339 | MainThread | INFO | <module> | gp2.settings | SETTINGS FILE: gp2\settings\settings.default.json
+
+2021-10-27 00:57:40,340 | MainThread | INFO | <module> | gp2.settings | SETTINGS FILE: settings\settings.rx.json
+
+2021-10-27 00:57:40,340 | MainThread | DEBUG | <module> | gp2.settings | SETTING [email_enabled]: False
+
+2021-10-27 00:57:40,340 | MainThread | DEBUG | <module> | gp2.settings | SETTING [debug]: True
+
+2021-10-27 00:57:40,341 | MainThread | DEBUG | <module> | gp2.settings | SETTING [tmp_dir]: tmp
+
+2021-10-27 00:57:40,341 | MainThread | DEBUG | <module> | gp2.settings | SETTING [logfile]: logs/log.txt
+
+2021-10-27 00:57:40,341 | MainThread | DEBUG | <module> | gp2.settings | SETTING [logfile_debug]: logs/log_debug.txt
+
+2021-10-27 00:57:40,341 | MainThread | DEBUG | <module> | gp2.settings | SETTING [log_duration]: True
+
+2021-10-27 00:57:40,341 | MainThread | DEBUG | <module> | gp2.settings | SETTING [log_query_id]: False
+
+2021-10-27 00:57:40,341 | MainThread | DEBUG | <module> | gp2.settings | SETTING [role]: analyst
+
+2021-10-27 00:57:40,341 | MainThread | DEBUG | <module> | gp2.settings | SETTING [warehouse]: skywalker
+
+2021-10-27 00:57:40,341 | MainThread | DEBUG | <module> | gp2.settings | SETTING [database]: research
+
+2021-10-27 00:57:40,341 | MainThread | DEBUG | <module> | gp2.settings | SETTING [schema]: scratch
+
+2021-10-27 00:57:40,341 | MainThread | DEBUG | <module> | gp2.settings | SETTING [email_from]: noreply@guidepointdata.com
+
+2021-10-27 00:57:40,341 | MainThread | DEBUG | <module> | gp2.settings | SETTING [email_recipient]: ['data-insights-alerts@guidepoint.com']
+
+2021-10-27 00:57:40,341 | MainThread | DEBUG | <module> | gp2.settings | SETTING [jinja_strict_undefined]: True
+
+2021-10-27 00:57:40,341 | MainThread | DEBUG | <module> | gp2.settings | SETTING [limit]: None
+
+2021-10-27 00:57:45,374 | MainThread | DEBUG | get_sysinfo | gp2.job.__sysinfo | SYSINFO - username: redmo
+
+2021-10-27 00:57:45,374 | MainThread | DEBUG | get_sysinfo | gp2.job.__sysinfo | SYSINFO - hostname: DESKTOP-43SCRGD
+
+2021-10-27 00:57:45,374 | MainThread | DEBUG | get_sysinfo | gp2.job.__sysinfo | SYSINFO - host_ip: 192.168.0.10
+
+2021-10-27 00:57:45,374 | MainThread | DEBUG | get_sysinfo | gp2.job.__sysinfo | SYSINFO - external_ip: 
+
+2021-10-27 00:57:45,374 | MainThread | DEBUG | get_sysinfo | gp2.job.__sysinfo | SYSINFO - python_version: 3.7.7 (default, May  6 2020, 11:45:54) [MSC v.1916 64 bit (AMD64)]
+
+2021-10-27 00:57:45,374 | MainThread | DEBUG | get_sysinfo | gp2.job.__sysinfo | SYSINFO - module_paths: D:\RedXCapital\crypto\ETL_update_data_model;C:\Users\redmo\Anaconda3\envs\Finance\python37.zip;C:\Users\redmo\Anaconda3\envs\Finance\DLLs;C:\Users\redmo\Anaconda3\envs\Finance\lib;C:\Users\redmo\Anaconda3\envs\Finance;C:\Users\redmo\AppData\Roaming\Python\Python37\site-packages;C:\Users\redmo\Anaconda3\envs\Finance\lib\site-packages;C:\Users\redmo\Anaconda3\envs\Finance\lib\site-packages\win32;C:\Users\redmo\Anaconda3\envs\Finance\lib\site-packages\win32\lib;C:\Users\redmo\Anaconda3\envs\Finance\lib\site-packages\Pythonwin
+
+2021-10-27 00:57:45,374 | MainThread | DEBUG | get_sysinfo | gp2.job.__sysinfo | SYSINFO - boto3_version: 1.15.18
+
+2021-10-27 00:57:45,374 | MainThread | DEBUG | get_sysinfo | gp2.job.__sysinfo | SYSINFO - aws_batch_job_id: 
+
+2021-10-27 00:57:45,374 | MainThread | DEBUG | get_sysinfo | gp2.job.__sysinfo | SYSINFO - workding_dir: D:\RedXCapital\crypto\ETL_update_data_model
+
+2021-10-27 00:57:45,374 | MainThread | DEBUG | get_sysinfo | gp2.job.__sysinfo | SYSINFO - command_line: -m rx
+
+2021-10-27 00:57:45,374 | MainThread | DEBUG | get_sysinfo | gp2.job.__sysinfo | SYSINFO - platform_system: Windows
+
+2021-10-27 00:57:45,374 | MainThread | DEBUG | get_sysinfo | gp2.job.__sysinfo | SYSINFO - plaform_version: 10.0.19041
+
+2021-10-27 00:57:45,374 | MainThread | DEBUG | get_sysinfo | gp2.job.__sysinfo | SYSINFO - platform_architecture: 64bit
+
+2021-10-27 00:57:45,374 | MainThread | DEBUG | get_sysinfo | gp2.job.__sysinfo | SYSINFO - platform_machine: AMD64
+
+2021-10-27 00:57:45,374 | MainThread | DEBUG | get_sysinfo | gp2.job.__sysinfo | SYSINFO - platform_processor: Intel64 Family 6 Model 158 Stepping 10, GenuineIntel
+
+2021-10-27 00:57:45,374 | MainThread | DEBUG | get_sysinfo | gp2.job.__sysinfo | SYSINFO - memory_used_mb: 10.2350848
+
+2021-10-27 00:57:45,430 | MainThread | CRITICAL | __unhandled_exception_handler | gp2.job.__job | UNANDLED_EXCEPTION
+Traceback (most recent call last):
+  File "C:\Users\redmo\Anaconda3\envs\Finance\lib\runpy.py", line 183, in _run_module_as_main
+    mod_name, mod_spec, code = _get_module_details(mod_name, _Error)
+  File "C:\Users\redmo\Anaconda3\envs\Finance\lib\runpy.py", line 109, in _get_module_details
+    __import__(pkg_name)
+  File "D:\RedXCapital\crypto\ETL_update_data_model\gp2\runner\__init__.py", line 1, in <module>
+    from .__runner import run_steps
+  File "D:\RedXCapital\crypto\ETL_update_data_model\gp2\runner\__runner.py", line 10, in <module>
+    from gp2.job import TMP_DIR
+  File "D:\RedXCapital\crypto\ETL_update_data_model\gp2\job\__init__.py", line 3, in <module>
+    from .__job import (
+  File "D:\RedXCapital\crypto\ETL_update_data_model\gp2\job\__job.py", line 158, in <module>
+    jobinfo                 = get_jobinfo()
+  File "D:\RedXCapital\crypto\ETL_update_data_model\gp2\job\__jobinfo.py", line 81, in get_jobinfo
+    ji = __get_jobinfo_from_context()
+  File "D:\RedXCapital\crypto\ETL_update_data_model\gp2\job\__jobinfo.py", line 43, in __get_jobinfo_from_context
+    ji.git_hash        = subprocess.run(['git', 'rev-parse', 'HEAD'           ], capture_output=True, check=True).stdout.decode('ascii').strip()
+  File "C:\Users\redmo\Anaconda3\envs\Finance\lib\subprocess.py", line 512, in run
+    output=stdout, stderr=stderr)
+subprocess.CalledProcessError: Command '['git', 'rev-parse', 'HEAD']' returned non-zero exit status 128.
+2021-10-27 00:57:45,439 | MainThread | DEBUG | __exit | gp2.job.__job | *** EXIT ***
+
+2021-10-27 00:57:45,439 | MainThread | CRITICAL | __exit | gp2.job.__job | UNEXPECTED EXIT
+

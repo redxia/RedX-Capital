@@ -1,0 +1,56 @@
+{
+    "email_enabled": false,
+    "debug": true,    
+    "run_auto": true,
+
+    // cut_date: [ YYYYMMDD Date | current | next ]
+    // prev_18mo: last 18 months from FY_QTR end
+    // FY_QTR: the general fiscal quarter
+    // multiple cutdate not build out yet
+
+    "cut_date": "20170727",
+    "prev_18mo": "'2016-01-01'",
+    "FY_QTR":"2017Q2",
+    "exclude_id":"",
+    "wkbk_exist":false,
+    //if the 2021Q1_Estimate_20210506.xlsx wkbk already exists for the step 03 output creation, then true
+    //false if you don't have the excel created
+    // "step_filter":["+step_03"],
+
+
+    // True causes TEMP to be replaced with '' in SQL scripts
+    "keep_temp_tables": false,
+    // True causes the BUILD_<CUT> schema to be dropped -- for a given cut
+    "replace_build_schemas": false,
+    // True causes the STAGE schema to be replaced 
+    "replace_stage_schema": false,
+    // True causes tables in STAGE schema to be dropped -- for a given cut
+    "drop_stage_tables": false,
+
+    // Working database
+    "database": "MOA",
+
+    // Schemas
+    //"build_schema":         "build_kd_20210429",
+    "build_schema":         "build_kd_",
+    "foundation_schema":    "foundation_ys",
+    "stage_schema":         "stage_kd",
+    "product_schema":       "*** not used yet ***",
+
+    // FOR DEBNUVA
+    // null -- No limit
+    // "limit": 10000,
+    "limit": null,
+    // "ISRG", "BSX_CARDIO", "BSX_MEDSURG", "BSX_RN", "BSX_NEUROMODULATION", "CNMD", "SYK_MEDSG", "SYK_NNS", "SYK_HIP", "SYK_KNEE", "SYK_TE",  "LIVN_CARDIO", "LIVN_NEUROMOD", "LIVN_ACS", "NUVA",  "EW_THV",  "MMSI_CARDIO", "MMSI_END",  "SNN_REC", "SNN_SMT", "SNN_AWM",
+    // "ticker_list": [ "ATEC", "ATRC",  "CSII", "GMED", "INSP",   "LUNG", "NARI_ALPHA",  "PEN_PERI", "PEN_NEURO", "SIBN", "SILK", "SWAV", "VAPO_CAP", "VAPO_DISP", "XENT"],
+    // "ticker_list":["EW_THV"],
+    //
+    // "ISRG", "ABT_RM", "ABT_EP", "ABT_HF", "ABT_NM","ABT_SH", "ABT_VAS",
+    // "ticker_list": ["BSX_CARDIO", "BSX_MEDSURG", "BSX_NEUROMODULATION", "BSX_RN", "CNMD", "EW_THV","GMED","MMSI_CARDIO","MMSI_END","PEN_NEURO","PEN_PERI","SYK_MEDSG", "SYK_NNS", "SYK_HIP", "SYK_KNEE", "SYK_TE", "INSP", "SIBN", "XENT", "CSII", "KIDS", "VAPO_CAP", "VAPO_DISP", "ABMD_IMP", "ATEC", "ATRC", "LIVN_ACS", "LIVN_CARDIO", "LIVN_NEUROMOD", "NUVA",  "ZBH_HIPS", "ZBH_KNEE", "ZBH_SET", "SWAV", "LUNG", "SILK", "NARI_ALPHA", "NPCE","SNN_AWM", "SNN_REC", "SNN_SMT"],
+
+    "ticker_list":["CSII"],
+
+    // "ticker_list":["MMSI_CARDIO", "MMSI_END"],
+    "max_threads": 10,
+    "warehouse"         : "vader"
+}   

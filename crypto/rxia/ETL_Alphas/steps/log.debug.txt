@@ -1,0 +1,98 @@
+2021-09-09 11:57:03,198 | MainThread | DEBUG | init_logger | root | Logging configured
+
+2021-09-09 11:57:03,199 | MainThread | INFO | <module> | gp.settings | SETTINGS FILE: settings.--ip=127.0.0.1.json
+
+2021-09-09 11:57:03,202 | MainThread | DEBUG | __init__ | snowflake.connector.converter_issue23517 | initialized
+
+2021-09-09 11:57:03,202 | MainThread | DEBUG | from_int | snowflake.connector.vendored.urllib3.util.retry | Converted retries value: 1 -> Retry(total=1, connect=None, read=None, redirect=None, status=None)
+
+2021-09-09 11:57:03,202 | MainThread | DEBUG | from_int | snowflake.connector.vendored.urllib3.util.retry | Converted retries value: 1 -> Retry(total=1, connect=None, read=None, redirect=None, status=None)
+
+2021-09-09 11:57:03,204 | MainThread | DEBUG | _new_conn | snowflake.connector.vendored.urllib3.connectionpool | Starting new HTTPS connection (1): guidepoint.snowflakecomputing.com:443
+
+2021-09-09 11:57:03,619 | MainThread | DEBUG | reset_cache_dir | snowflake.connector.ocsp_snowflake | cache directory: C:\Users\redmond.xia\AppData\Local\Snowflake\Caches
+
+2021-09-09 11:57:03,649 | MainThread | DEBUG | reset_ocsp_response_cache_uri | snowflake.connector.ocsp_snowflake | ocsp_response_cache_uri: file://C:/Users/redmond.xia/AppData/Local/Snowflake/Caches/ocsp_response_cache.json
+
+2021-09-09 11:57:03,649 | MainThread | DEBUG | reset_ocsp_response_cache_uri | snowflake.connector.ocsp_snowflake | OCSP_VALIDATION_CACHE size: 0
+
+2021-09-09 11:57:03,649 | MainThread | DEBUG | reset_ocsp_dynamic_cache_server_url | snowflake.connector.ocsp_snowflake | OCSP response cache server is enabled: http://ocsp.snowflakecomputing.com/ocsp_response_cache.json
+
+2021-09-09 11:57:03,649 | MainThread | DEBUG | reset_ocsp_dynamic_cache_server_url | snowflake.connector.ocsp_snowflake | OCSP dynamic cache server RETRY URL: None
+
+2021-09-09 11:57:03,650 | MainThread | DEBUG | check_ocsp_response_cache_lock_dir | snowflake.connector.ocsp_snowflake | The cache is older than 1 day. Deleted the cache file: C:/Users/redmond.xia/AppData/Local/Snowflake/Caches/ocsp_response_cache.json
+
+2021-09-09 11:57:03,650 | MainThread | DEBUG | read_ocsp_response_cache_file | snowflake.connector.ocsp_snowflake | Failed to locate OCSP response cache file. No worry. It will validate with OCSP server: C:/Users/redmond.xia/AppData/Local/Snowflake/Caches/ocsp_response_cache.json
+
+2021-09-09 11:57:03,651 | MainThread | DEBUG | validate | snowflake.connector.ocsp_snowflake | validating certificate: guidepoint.snowflakecomputing.com
+
+2021-09-09 11:57:03,749 | MainThread | DEBUG | find_cache | snowflake.connector.ocsp_snowflake | not hit cache for subject: OrderedDict([('common_name', '*.us-west-2.snowflakecomputing.com')])
+
+2021-09-09 11:57:03,749 | MainThread | DEBUG | _download_ocsp_response_cache | snowflake.connector.ocsp_snowflake | started downloading OCSP response cache file: http://ocsp.snowflakecomputing.com/ocsp_response_cache.json
+
+2021-09-09 11:57:03,936 | MainThread | DEBUG | _download_ocsp_response_cache | snowflake.connector.ocsp_snowflake | ended downloading OCSP response cache file. elapsed time: 0.18694686889648438s
+
+2021-09-09 11:57:03,936 | MainThread | DEBUG | download_cache_from_server | snowflake.connector.ocsp_snowflake | downloaded OCSP response cache file from http://ocsp.snowflakecomputing.com/ocsp_response_cache.json
+
+2021-09-09 11:57:03,936 | MainThread | DEBUG | download_cache_from_server | snowflake.connector.ocsp_snowflake | # of certificates: 149
+
+2021-09-09 11:57:03,937 | MainThread | DEBUG | find_cache | snowflake.connector.ocsp_snowflake | hit cache for subject: OrderedDict([('common_name', '*.us-west-2.snowflakecomputing.com')])
+
+2021-09-09 11:57:03,938 | MainThread | DEBUG | validate_by_direct_connection | snowflake.connector.ocsp_snowflake | using OCSP response cache
+
+2021-09-09 11:57:03,957 | MainThread | DEBUG | find_cache | snowflake.connector.ocsp_snowflake | hit cache for subject: OrderedDict([('country_name', 'US'), ('organization_name', 'Amazon'), ('organizational_unit_name', 'Server CA 1B'), ('common_name', 'Amazon')])
+
+2021-09-09 11:57:03,958 | MainThread | DEBUG | validate_by_direct_connection | snowflake.connector.ocsp_snowflake | using OCSP response cache
+
+2021-09-09 11:57:03,963 | MainThread | DEBUG | find_cache | snowflake.connector.ocsp_snowflake | hit cache for subject: OrderedDict([('country_name', 'US'), ('organization_name', 'Amazon'), ('common_name', 'Amazon Root CA 1')])
+
+2021-09-09 11:57:03,964 | MainThread | DEBUG | validate_by_direct_connection | snowflake.connector.ocsp_snowflake | using OCSP response cache
+
+2021-09-09 11:57:03,969 | MainThread | DEBUG | find_cache | snowflake.connector.ocsp_snowflake | hit cache for subject: OrderedDict([('country_name', 'US'), ('state_or_province_name', 'Arizona'), ('locality_name', 'Scottsdale'), ('organization_name', 'Starfield Technologies, Inc.'), ('common_name', 'Starfield Services Root Certificate Authority - G2')])
+
+2021-09-09 11:57:03,970 | MainThread | DEBUG | validate_by_direct_connection | snowflake.connector.ocsp_snowflake | using OCSP response cache
+
+2021-09-09 11:57:03,974 | MainThread | DEBUG | write_ocsp_response_cache_file | snowflake.connector.ocsp_snowflake | writing OCSP response cache file to C:/Users/redmond.xia/AppData/Local/Snowflake/Caches/ocsp_response_cache.json
+
+2021-09-09 11:57:03,974 | MainThread | DEBUG | encode_ocsp_response_cache | snowflake.connector.ocsp_snowflake | encoding OCSP response cache to JSON
+
+2021-09-09 11:57:03,988 | MainThread | DEBUG | _validate | snowflake.connector.ocsp_snowflake | ok
+
+2021-09-09 11:57:04,501 | MainThread | DEBUG | _make_request | snowflake.connector.vendored.urllib3.connectionpool | https://guidepoint.snowflakecomputing.com:443 "POST /session/v1/login-request?request_id=35127a03-ff7f-4e5c-8f54-ea4372544aa1&roleName=analyst&request_guid=f35b8a16-3b47-4551-a3bb-795d29403bf7 HTTP/1.1" 200 1443
+
+2021-09-09 11:57:04,503 | MainThread | DEBUG | connect | gp.snowflake | Snowflake Connector Version: 2.3.10
+
+2021-09-09 11:57:04,503 | MainThread | DEBUG | connect | gp.snowflake | Snowflake Connected: user=rxia
+
+2021-09-09 11:57:04,887 | MainThread | DEBUG | _make_request | snowflake.connector.vendored.urllib3.connectionpool | https://guidepoint.snowflakecomputing.com:443 "POST /queries/v1/query-request?requestId=585ef493-0cd8-4dd6-8b8c-10a3ea8a2b96&request_guid=8fc36e2a-7c12-4c42-b088-ca4699ef3d54 HTTP/1.1" 200 1361
+
+2021-09-09 11:57:05,090 | MainThread | DEBUG | update | parso.python.diff | diff parser start
+
+2021-09-09 11:57:05,090 | MainThread | DEBUG | update | parso.python.diff | line_lengths old: 1; new: 1
+
+2021-09-09 11:57:05,090 | MainThread | DEBUG | update | parso.python.diff | -> code[replace] old[1:1] new[1:1]
+
+2021-09-09 11:57:05,090 | MainThread | DEBUG | _parse | parso.python.diff | parse_part from 1 to 1 (to 0 in part parser)
+
+2021-09-09 11:57:05,090 | MainThread | DEBUG | update | parso.python.diff | diff parser end
+
+2021-09-09 11:59:36,779 | MainThread | DEBUG | update | parso.python.diff | diff parser start
+
+2021-09-09 11:59:36,779 | MainThread | DEBUG | update | parso.python.diff | line_lengths old: 1; new: 1
+
+2021-09-09 11:59:36,779 | MainThread | DEBUG | update | parso.python.diff | -> code[replace] old[1:1] new[1:1]
+
+2021-09-09 11:59:36,779 | MainThread | DEBUG | _parse | parso.python.diff | parse_part from 1 to 1 (to 0 in part parser)
+
+2021-09-09 11:59:36,780 | MainThread | DEBUG | update | parso.python.diff | diff parser end
+
+2021-09-09 11:59:44,915 | MainThread | DEBUG | update | parso.python.diff | diff parser start
+
+2021-09-09 11:59:44,915 | MainThread | DEBUG | update | parso.python.diff | line_lengths old: 1; new: 1
+
+2021-09-09 11:59:44,915 | MainThread | DEBUG | update | parso.python.diff | -> code[replace] old[1:1] new[1:1]
+
+2021-09-09 11:59:44,915 | MainThread | DEBUG | _parse | parso.python.diff | parse_part from 1 to 1 (to 0 in part parser)
+
+2021-09-09 11:59:44,916 | MainThread | DEBUG | update | parso.python.diff | diff parser end
+

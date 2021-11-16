@@ -1,9 +1,9 @@
 library(quantmod)
 # Setting directory and declaring btc as base -----------------------------
-setwd("D:/RedX Capital/crypto/Data/master_data")
+setwd("D:/RedXCapital/crypto/Data/master_data")
 file_names <-list.files()
 file_names <- file_names[file_names != "temp"]
-tickers <- read.csv("D:/RedX Capital/crypto/crypto_master.csv")
+tickers <- read.csv("D:/RedXCapital/crypto/crypto_master.csv")
 tickers$TICKER <- tolower(tickers$TICKER)
 btc_file <- 'btc-usd-max.csv'
 
@@ -53,7 +53,8 @@ idx_df <- data.frame(Date=master_df[,"Date"])
 idx_df$index <- rowSums(master_df[ticker_weight] * master_df[ticker_close], na.rm=TRUE)
 idx_df$returns <- as.numeric(quantmod::Lag(idx_df$index)) / idx_df$index - 1
 #plot(idx_df$Date, idx_df$index, type='l', xlab="Date", ylab="Price", main="Crpyto Index")
-write.csv(idx_df,"D:/RedX Capital/crypto/Data/Crypto_DJ.csv", row.names = FALSE)
+write.csv(idx_df,"D:/RedXCapital/crypto/Data/Crypto_DJ.csv", row.names = FALSE)
 plot(idx_df$Date, idx_df$index, type='l', xlab="Date", ylab="Price", main="Crpyto Index")
-plot(idx_df$Date, idx_df$returns, type='l', xlab="Date", ylab="Price", main="Crpyto Index")
+plot(idx_df[idx_df$Date >= "2017-01-01",]$Date, idx_df[idx_df$Date >= "2017-01-01",]$index, type='l', xlab="Date", ylab="Price", main="Crpyto Index")
+#plot(idx_df$Date, idx_df$returns, type='l', xlab="Date", ylab="Price", main="Crpyto Index")
 
