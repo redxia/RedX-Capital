@@ -1,0 +1,198 @@
+aiohttp>=3.7.4
+alpaca-backtrader-api>=0.14.1
+alpaca-trade-api>=1.4.3
+alpha-vantage>=2.2.0
+arch>=4.15
+argon2-cffi @ file:///C:/ci/argon2-cffi_1596828549974/work
+arviz>=0.9.0
+asgiref>=3.2.10
+asn1crypto>=1.4.0
+astroid>=2.4.2
+async-generator>=1.10
+async-timeout>=3.0.1
+atomicwrites>=1.4.0
+attrs>=19.3.0
+azure-common>=1.1.25
+azure-core>=1.8.2
+azure-storage-blob>=12.5.0
+backcall>=0.2.0
+backtrader>=1.9.76.123
+beautifulsoup4>=4.9.1
+bleach>=3.1.5
+boto3>=1.15.18
+botocore>=1.18.18
+brotlipy>=0.7.0
+certifi>=2020.6.20
+cffi>=1.14.3
+cftime>=1.2.1
+chardet>=3.0.4
+charset-normalizer @ file:///tmp/build/80754af9/charset-normalizer_1630003229654/work
+click>=7.1.2
+colorama>=0.4.3
+cryptography>=2.9.2
+cvxopt>=1.2.5
+cvxpy>=1.0.31
+cycler>=0.10.0
+Cython>=0.29.21
+decorator>=4.4.2
+defusedxml>=0.6.0
+dill>=0.3.2
+distro>=1.5.0
+Django>=3.1.1
+django-local-settings>=1.0b11
+ecos>=2.0.7.post1
+empyrical>=0.5.3
+entrypoints>=0.3
+et-xmlfile>=1.1.0
+execnet>=1.9.0
+fastprogress>=0.2.6
+finnhub-python>=2.2.0
+fix-yahoo-finance>=0.1.37
+freetype-py>=2.2.0
+future>=0.18.2
+geographiclib>=1.50
+geopy>=2.0.0
+h11>=0.12.0
+h5py>=2.10.0
+html5lib>=1.1
+idna @ file:///tmp/build/80754af9/idna_1593446292537/work
+iexfinance>=0.4.3
+importlib-metadata @ file:///C:/ci/importlib-metadata_1593446525189/work
+iniconfig>=1.1.1
+intel-openmp>=2019.0
+ipykernel @ file:///C:/ci/ipykernel_1596208728219/work/dist/ipykernel-5.3.4-py3-none-any.whl
+ipython @ file:///C:/ci/ipython_1596868620883/work
+ipython-genutils>=0.2.0
+isodate>=0.6.0
+isort>=5.4.2
+jedi @ file:///C:/ci/jedi_1596472767194/work
+Jinja2>=2.11.2
+jmespath @ file:///Users/ktietz/demo/mc3/conda-bld/jmespath_1630583964805/work
+joblib>=0.16.0
+json5>=0.9.5
+jsonschema @ file:///C:/ci/jsonschema_1594363671836/work
+jupyter-client @ file:///tmp/build/80754af9/jupyter_client_1594826976318/work
+jupyter-core>=4.6.3
+jupyterlab>=2.1.5
+jupyterlab-server @ file:///tmp/build/80754af9/jupyterlab_server_1594164409481/work
+kiwisolver>=1.2.0
+lazy-object-proxy>=1.4.3
+lineedit @ file:///home/conda/feedstock_root/build_artifacts/lineedit_1612919071004/work
+lxml>=4.5.2
+Mako>=1.1.3
+MarkupSafe @ file:///C:/ci/markupsafe_1594405949945/work
+matplotlib>=3.3.1
+mccabe>=0.6.1
+mistune @ file:///C:/ci/mistune_1594373272338/work
+mkl>=2019.0
+mkl-fft>=1.1.0
+mkl-random>=1.1.1
+mkl-service>=2.3.0
+msgpack>=1.0.2
+msrest>=0.6.19
+multidict>=4.7.6
+multipledispatch>=0.6.0
+multiprocess>=0.70.10
+multitasking>=0.0.9
+munch>=2.5.0
+nbconvert @ file:///C:/ci/nbconvert_1594372737468/work
+nbformat>=5.0.7
+netCDF4>=1.5.4
+notebook @ file:///C:/ci/notebook_1596837179121/work
+numpy>=1.21.2
+oauthlib>=3.1.0
+openpyxl>=3.0.9
+oscrypto>=1.2.1
+osqp>=0.6.1
+outcome>=1.1.0
+packaging>=20.4
+pandas>=1.3.2
+pandas-datareader>=0.9.0
+pandocfilters>=1.4.2
+parso>=0.7.0
+patsy>=0.5.1
+pickleshare @ file:///C:/ci/pickleshare_1594374056827/work
+Pillow>=7.2.0
+pluggy>=1.0.0
+prometheus-client>=0.8.0
+prompt-toolkit>=3.0.5
+property-cached>=1.6.4
+psutil>=5.8.0
+py>=1.10.0
+pycparser @ file:///tmp/build/80754af9/pycparser_1594388511720/work
+pycryptodomex>=3.9.8
+pyfolio>=0.9.2
+Pygments>=2.6.1
+pygpu>=0.7.6
+PyJWT>=1.7.1
+pykalman>=0.9.5
+pylint>=2.6.0
+pymc3>=3.9.3
+pyOpenSSL @ file:///tmp/build/80754af9/pyopenssl_1594392929924/work
+pyparsing>=2.4.7
+pypng>=0.0.20
+pyportfolioopt>=1.2.4
+pyrsistent>=0.16.0
+PySocks @ file:///C:/ci/pysocks_1594394709107/work
+pytest>=6.2.5
+pytest-forked>=1.3.0
+pytest-xdist>=2.4.0
+python-dateutil>=2.8.1
+pytz>=2020.1
+pywin32>=227
+pywinpty>=0.5.7
+PyYAML>=5.4.1
+pyzmq>=19.0.1
+qstrader @ git+https://github.com/quantstart/qstrader.git@e6d86a3ac3dc507b26e27b1f20c2949a69438ef7
+radian @ file:///home/conda/feedstock_root/build_artifacts/radian_1632250707564/work
+rchitect @ file:///D:/bld/rchitect_1622756280587/work
+requests>=2.23.0
+requests-oauthlib>=1.3.0
+s3transfer>=0.3.3
+scikit-learn>=0.23.2
+scipy>=1.5.2
+scs>=2.1.2
+seaborn>=0.10.1
+selenium>=4.1.0
+Send2Trash>=1.5.0
+six>=1.15.0
+sklearn>=0.0
+sniffio>=1.2.0
+snowflake-connector-python>=2.3.10
+sortedcontainers>=2.4.0
+soupsieve>=2.0.1
+sqlparse>=0.3.1
+statsmodels>=0.11.1
+TA-Lib>=0.4.18
+tabula-py>=2.1.1
+tabulate>=0.8.9
+terminado>=0.8.3
+testpath>=0.4.4
+Theano>=1.0.5
+threadpoolctl>=2.1.0
+tiingo>=0.12.0
+toml>=0.10.1
+toolz>=0.11.1
+tornado>=6.0.4
+trading-calendars>=2.1.1
+traitlets>=4.3.3
+trio>=0.19.0
+trio-websocket>=0.9.2
+typed-ast>=1.4.1
+typing-extensions>=3.7.4.2
+undetected-chromedriver>=3.0.6
+urllib3>=1.26.9
+wcwidth @ file:///tmp/build/80754af9/wcwidth_1593447189090/work
+webencodings>=0.5.1
+websocket-client>=0.57.0
+websockets>=8.1
+win-inet-pton>=1.1.0
+wincertstore>=0.2
+wrapt>=1.12.1
+wsproto>=1.0.0
+xarray>=0.16.0
+xgboost>=1.1.1
+xlrd>=1.2.0
+yarl>=1.5.1
+yfinance>=0.1.54
+zipp>=3.1.0

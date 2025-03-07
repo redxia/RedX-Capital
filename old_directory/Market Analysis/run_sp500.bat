@@ -1,0 +1,2 @@
+python sp500_t10y_t2yr.py
+pause

@@ -1,0 +1,2 @@
+python sp500_death_cross.py
+pause
